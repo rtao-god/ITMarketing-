@@ -1,0 +1,26 @@
+.header {
+  margin: auto auto;
+  width: 1000px;
+}
+
+.headerFlex {
+  display: flex;
+  align-items: center;
+}
+.headerFlex p {
+  font-size: 55px;
+  font-weight: 700;
+}
+.headerFlex .logoAndLanguage {
+  display: flex;
+}
+.headerFlex .logoAndLanguage img {
+  width: 320px;
+  height: 124px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #FFF376;
+}
+.headerFlex .bigImg {
+  width: 659px;
+  height: 439px;
+}/*# sourceMappingURL=index.css.map */
