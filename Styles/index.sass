@@ -1,21 +1,180 @@
-.header
-    margin: auto auto
-    width: 1000px
-
-.headerFlex
+.flex
     display: flex
-    align-items: center
-    & p
-        font-size: 55px
-        font-weight: 700
+    justify-content: space-between
+
+.header
+    margin: 20px auto 0 auto
+    width: 1100px
     & .logoAndLanguage
         display: flex
-        & img
+        align-items: center
+        justify-content: space-between
+        & a img
             width: 320px
             height: 124px
             margin-bottom: 30px
             border-bottom: 2px solid#FFF376
+        & div
+            display: flex
+            align-items: center
+            position: relative
+            top: -10px
+            cursor: pointer
+            border-radius: 15px
+            background-color: #FFF376
+            padding: 10px
+            & p
+                font-weight: 700
+            & svg
+                margin-left: 10px
+                transform: rotate(90deg)
 
-    & .bigImg
-        width: 659px
-        height: 439px
+    & .headerFlex
+        display: flex
+        align-items: center
+        & p
+            font-size: 50px
+            font-weight: 700
+        & .parallelogram
+            width: 224px
+            & p
+                font-size: 30px
+        & .bigImg
+            width: 659px
+            height: 340px
+
+    & .enterpreneurHeadache
+        display: flex
+        flex-wrap: wrap
+        margin-top: 100px
+        margin-bottom: 300px
+        & .enterpreneurHeadacheTitle
+            font-weight: 600
+            font-size: 45px
+            display: flex
+            justify-content: center
+            width: 1000px
+            & p
+                margin: 0 120px 0 120px
+        & .parallelogram
+            font-size: 10px
+            margin-left: 30px
+            margin-top: 70px
+            & span
+                position: absolute
+                top: -30px
+                left: 15px
+                font-size: 19px
+                font-weight: 600
+
+.youGet
+    background-color: #3E3E3E
+    padding: 50px 120px 50px 120px
+    width: 100%
+    & .blockAboutTheFounder
+        display: flex
+        height: 420px
+        & .photoFounder
+            position: relative
+            top: -121px
+            width: 390px
+            height: 500px
+            margin-right: 60px
+        & .block
+            & p
+                color: white
+                font-size: 30px
+                font-weight: 600
+                width: 100%
+                & span
+                    color: #FFF376
+                    text-transform: uppercase
+            & .founder p:nth-child(1)
+                border-top: 2px solid #FFF376
+                padding-top: 20px
+                padding-right: 117px
+            & .founder p:nth-child(3)
+                font-size: 20px
+                font-weight: 200
+            & .youGetVectors
+                display: flex
+                & .vectorArrow
+                    width: 134px
+                    height: 64px
+                & .vectorRectangle
+                    width: 25px
+                    height: 70px
+
+    & .youGetFooter
+        display: flex
+        color: white
+        & dl
+            width: 488%
+            margin-right: 100px
+            & dt
+                font-size: 35px
+                color: #FFF376
+                margin-bottom: 30px
+            & dd
+                font-size: 20px
+                display: flex
+                & span
+                    margin-left: 30px
+                    text-transform: uppercase
+                &:nth-child(4)
+                    position: relative
+                    top: 50px
+                & .absoluteFirst
+                    position: relative
+                    & img
+                        position: relative
+                        &:nth-child(2)
+                            top: -42px
+                & .absoluteSecond
+                    position: relative
+                    top: -65px
+                    height: 20px
+                    & img
+                        position: relative
+                        &:nth-child(1)
+                            left: 14px
+                            top: 84px
+                        &:nth-child(2)
+                            left: 12px
+                            top: 77px
+                        &:nth-child(3)
+                            left: -5px
+                            top: 46px
+                        &:nth-child(4)
+                            left: -7px
+                            top: 19px
+                        &:nth-child(5)
+                            top: -9px
+                            left: 9px
+                        &:nth-child(6)
+                            top: -10px
+                & .absoluteThird
+                    position: relative
+                    top: -10px
+                    & img
+                        position: relative
+        & .aboutUs
+            font-size: 18px
+            font-weight: 200
+            line-height: 29px
+        & .quotesFrame
+            position: relative
+            left: 40px
+            width: 40px
+            height: 40px
+
+.withUs
+    & h2
+        font-size: 55px
+        font-weight: 600
+        margin-top: 80px
+        display: flex
+        justify-content: space-around
+       
+        
+

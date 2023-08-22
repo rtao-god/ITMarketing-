@@ -1,0 +1,21 @@
+.parallelogram {
+    /* position: absolute; */
+    margin-top: 40px;
+    background-color: #fff376;
+    padding: 20px 40px 20px 40px;
+    transform: skew(20deg);
+    cursor: pointer;
+    box-shadow: 0px 0px 28px 0px #1e1e1e33;
+    max-width: 300px;
+    word-break: break-all;
+}
+
+.parallelogram p {
+    font-size: 20px;
+    transform: skew(-20deg);
+}
+
+.parallelogram span {
+    font-size: 20px;
+    transform: skew(-20deg);
+}

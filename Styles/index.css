@@ -1,26 +1,221 @@
-.header {
-  margin: auto auto;
-  width: 1000px;
+.flex {
+  display: flex;
+  justify-content: space-between;
 }
 
-.headerFlex {
+.header {
+  margin: 20px auto 0 auto;
+  width: 1100px;
+}
+.header .logoAndLanguage {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
-.headerFlex p {
-  font-size: 55px;
-  font-weight: 700;
-}
-.headerFlex .logoAndLanguage {
-  display: flex;
-}
-.headerFlex .logoAndLanguage img {
+.header .logoAndLanguage a img {
   width: 320px;
   height: 124px;
   margin-bottom: 30px;
   border-bottom: 2px solid #FFF376;
 }
-.headerFlex .bigImg {
+.header .logoAndLanguage div {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: -10px;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: #FFF376;
+  padding: 10px;
+}
+.header .logoAndLanguage div p {
+  font-weight: 700;
+}
+.header .logoAndLanguage div svg {
+  margin-left: 10px;
+  transform: rotate(90deg);
+}
+.header .headerFlex {
+  display: flex;
+  align-items: center;
+}
+.header .headerFlex p {
+  font-size: 50px;
+  font-weight: 700;
+}
+.header .headerFlex .parallelogram {
+  width: 224px;
+}
+.header .headerFlex .parallelogram p {
+  font-size: 30px;
+}
+.header .headerFlex .bigImg {
   width: 659px;
-  height: 439px;
+  height: 340px;
+}
+.header .enterpreneurHeadache {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  margin-bottom: 300px;
+}
+.header .enterpreneurHeadache .enterpreneurHeadacheTitle {
+  font-weight: 600;
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+}
+.header .enterpreneurHeadache .enterpreneurHeadacheTitle p {
+  margin: 0 120px 0 120px;
+}
+.header .enterpreneurHeadache .parallelogram {
+  font-size: 10px;
+  margin-left: 30px;
+  margin-top: 70px;
+}
+.header .enterpreneurHeadache .parallelogram span {
+  position: absolute;
+  top: -30px;
+  left: 15px;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.youGet {
+  background-color: #3E3E3E;
+  padding: 50px 120px 50px 120px;
+  width: 100%;
+}
+.youGet .blockAboutTheFounder {
+  display: flex;
+  height: 420px;
+}
+.youGet .blockAboutTheFounder .photoFounder {
+  position: relative;
+  top: -121px;
+  width: 390px;
+  height: 500px;
+  margin-right: 60px;
+}
+.youGet .blockAboutTheFounder .block p {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  width: 100%;
+}
+.youGet .blockAboutTheFounder .block p span {
+  color: #FFF376;
+  text-transform: uppercase;
+}
+.youGet .blockAboutTheFounder .block .founder p:nth-child(1) {
+  border-top: 2px solid #FFF376;
+  padding-top: 20px;
+  padding-right: 117px;
+}
+.youGet .blockAboutTheFounder .block .founder p:nth-child(3) {
+  font-size: 20px;
+  font-weight: 200;
+}
+.youGet .blockAboutTheFounder .block .youGetVectors {
+  display: flex;
+}
+.youGet .blockAboutTheFounder .block .youGetVectors .vectorArrow {
+  width: 134px;
+  height: 64px;
+}
+.youGet .blockAboutTheFounder .block .youGetVectors .vectorRectangle {
+  width: 25px;
+  height: 70px;
+}
+.youGet .youGetFooter {
+  display: flex;
+  color: white;
+}
+.youGet .youGetFooter dl {
+  width: 488%;
+  margin-right: 100px;
+}
+.youGet .youGetFooter dl dt {
+  font-size: 35px;
+  color: #FFF376;
+  margin-bottom: 30px;
+}
+.youGet .youGetFooter dl dd {
+  font-size: 20px;
+  display: flex;
+}
+.youGet .youGetFooter dl dd span {
+  margin-left: 30px;
+  text-transform: uppercase;
+}
+.youGet .youGetFooter dl dd:nth-child(4) {
+  position: relative;
+  top: 50px;
+}
+.youGet .youGetFooter dl dd .absoluteFirst {
+  position: relative;
+}
+.youGet .youGetFooter dl dd .absoluteFirst img {
+  position: relative;
+}
+.youGet .youGetFooter dl dd .absoluteFirst img:nth-child(2) {
+  top: -42px;
+}
+.youGet .youGetFooter dl dd .absoluteSecond {
+  position: relative;
+  top: -65px;
+  height: 20px;
+}
+.youGet .youGetFooter dl dd .absoluteSecond img {
+  position: relative;
+}
+.youGet .youGetFooter dl dd .absoluteSecond img:nth-child(1) {
+  left: 14px;
+  top: 84px;
+}
+.youGet .youGetFooter dl dd .absoluteSecond img:nth-child(2) {
+  left: 12px;
+  top: 77px;
+}
+.youGet .youGetFooter dl dd .absoluteSecond img:nth-child(3) {
+  left: -5px;
+  top: 46px;
+}
+.youGet .youGetFooter dl dd .absoluteSecond img:nth-child(4) {
+  left: -7px;
+  top: 19px;
+}
+.youGet .youGetFooter dl dd .absoluteSecond img:nth-child(5) {
+  top: -9px;
+  left: 9px;
+}
+.youGet .youGetFooter dl dd .absoluteSecond img:nth-child(6) {
+  top: -10px;
+}
+.youGet .youGetFooter dl dd .absoluteThird {
+  position: relative;
+  top: -10px;
+}
+.youGet .youGetFooter dl dd .absoluteThird img {
+  position: relative;
+}
+.youGet .youGetFooter .aboutUs {
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 29px;
+}
+.youGet .youGetFooter .quotesFrame {
+  position: relative;
+  left: 40px;
+  width: 40px;
+  height: 40px;
+}
+
+.withUs h2 {
+  font-size: 55px;
+  font-weight: 600;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
 }/*# sourceMappingURL=index.css.map */
