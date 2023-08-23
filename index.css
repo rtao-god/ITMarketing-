@@ -195,6 +195,20 @@ p {
     font-weight: 600;
 }
 
+dd {
+    font-family: "Graphik";
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.strong {
+    font-weight: 900;
+}
+
+.alginCenter{
+    text-align: center;
+}
+
 .backgroundBlock {
     position: absolute;
     top: 77%;

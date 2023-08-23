@@ -35,72 +35,218 @@
   height: 22px;
 }
 
-.cases {
+.casesFirst {
   margin-top: 100px;
+  margin-bottom: -330px;
 }
-.cases .rectangle218 {
+.casesFirst .rectangle218 {
   height: 847px;
 }
-.cases .parallelogram {
-  margin: 50px 0 70px 43px;
+.casesFirst .parallelogram {
+  margin: 50px 0 41px 43px;
 }
-.cases dl {
+.casesFirst dl {
   padding: 30px;
 }
-.cases dt {
+.casesFirst dt {
   margin-bottom: 20px;
 }
-.cases dd {
+.casesFirst dd {
   margin-bottom: 10px;
   font-family: "Graphik";
   font-size: 17px;
   font-weight: 600;
   margin-left: 20px;
 }
-.cases dd img {
+.casesFirst dd img {
   position: relative;
   top: 30px;
 }
-.cases dd .womanImg {
+.casesFirst dd .womanImg {
   position: relative;
   top: -302px;
   left: 59%;
 }
-.cases dd p {
+.casesFirst dd p {
   position: relative;
   top: -430px;
   left: 3%;
   font-size: 32px;
 }
-.cases .aims {
+.casesFirst .aims {
   margin-right: 100px;
 }
-.cases .aboutCompany {
+.casesFirst .aboutCompany {
   padding: 30px;
   position: relative;
   top: -410px;
 }
-.cases .result {
+.casesFirst .result {
   margin-top: 196px;
 }
-.cases .result dt {
+.casesFirst .result dt {
   margin-bottom: 20px;
 }
-.cases .result .resultTextInterest {
+.casesFirst .result .resultTextInterest {
   position: relative;
   top: -41px;
   left: 3%;
   font-size: 51px;
 }
-.cases .result .resultText {
+.casesFirst .result .resultText {
   position: relative;
   top: -111px;
   left: 37%;
   width: 310px;
   font-size: 30px;
 }
-.cases .strategy {
+.casesFirst .strategy {
   padding: 30px;
   position: relative;
   top: -72px;
+}
+
+.casesSecond {
+  margin-top: 100px;
+  margin-bottom: -330px;
+}
+.casesSecond .rectangle218 {
+  height: 847px;
+}
+.casesSecond .parallelogram {
+  margin: 50px 0 41px 43px;
+}
+.casesSecond dl {
+  padding: 30px;
+}
+.casesSecond dt {
+  margin-bottom: 20px;
+}
+.casesSecond dd {
+  margin-bottom: 10px;
+  font-family: "Graphik";
+  font-size: 17px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+.casesSecond dd img {
+  position: relative;
+  top: 30px;
+  margin-top: 55px;
+}
+.casesSecond dd .womanImg {
+  position: relative;
+  top: -187px;
+  left: 51%;
+  width: 300px;
+}
+.casesSecond dd p {
+  position: relative;
+  top: -304px;
+  left: 3%;
+  font-size: 32px;
+}
+.casesSecond .aims {
+  margin-right: 100px;
+}
+.casesSecond .aboutCompany {
+  padding: 30px;
+  position: relative;
+  top: -246px;
+}
+.casesSecond .result {
+  margin-top: 173px;
+}
+.casesSecond .result dt {
+  margin-bottom: 20px;
+}
+.casesSecond .result .resultTextInterest {
+  position: relative;
+  top: -41px;
+  left: 3%;
+  font-size: 51px;
+}
+.casesSecond .result .resultText {
+  position: relative;
+  top: -111px;
+  left: 37%;
+  width: 310px;
+  font-size: 30px;
+}
+.casesSecond .strategy {
+  padding: 30px;
+  position: relative;
+  top: -119px;
+}
+
+.projectsMain {
+  margin-top: 500px;
+  padding-bottom: 300px;
+}
+.projectsMain .projects {
+  margin-top: 70px;
+  margin-bottom: -125px;
+}
+.projectsMain .projects .flex {
+  margin-top: 20px;
+}
+.projectsMain .projects .experience {
+  margin-bottom: 70px;
+  margin-right: 400px;
+}
+.projectsMain dl dt {
+  margin-bottom: 20px;
+}
+.projectsMain dl dd {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.projectsMain .img219Top {
+  margin-top: 40px;
+}
+.projectsMain .resultTextInterest {
+  position: relative;
+  top: -87px;
+  left: 3%;
+  font-size: 51px;
+}
+.projectsMain .resultText {
+  position: relative;
+  top: -165px;
+  left: 30%;
+  font-size: 39px;
+}
+.projectsMain .aboutCompany {
+  margin-top: 40px;
+}
+.projectsMain .h5Projects {
+  width: 400px;
+}
+.projectsMain .h5Projects .parallelogram {
+  margin: 41px 43px;
+}
+
+.newService .newServiceFlex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.newService .number {
+  position: relative;
+  top: 10%;
+  background-color: #FFF376;
+  padding: 13px 180px 0px 180px;
+}
+.newService .number p {
+  width: 100%;
+}
+.newService .newServiceDiv {
+  height: 74%;
+  width: 540px;
+  background-color: #3E3E3E;
+  margin-right: 20px;
+  padding: 40px 20px;
+  color: white;
+  text-align: center;
+  line-height: 31px;
 }/*# sourceMappingURL=index.css.map */
