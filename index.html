@@ -3,12 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> IT Marketing </title>
+    <link rel="stylesheet" href="./js/swiper/editor.css">
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./Styles/index.css">
     <link rel="stylesheet" href="./UI/parallelogram.css">
-    <link rel="stylesheet" href="./js/swiper/editor.css">
 </head>
 
 <body>
@@ -146,12 +146,12 @@
             <h2> клиенты, которые нам доверились </h2>
             <div class="swiper">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide"> <img src="./screenshots/Image 872.png" alt=""></div>
+                    <div class="swiper-slide"> <img src="./screenshots/Group 253.png" alt=""></div>
                     <div class="swiper-slide"> <img src="./screenshots/Group 254.png" alt=""></div>
                     <div class="swiper-slide"> <img src="./screenshots/Group 255.png" alt=""></div>
                     <div class="swiper-slide"> <img src="./screenshots/Group 256.png" alt=""></div>
                     <div class="swiper-slide"> <img src="./screenshots/Group 257.png" alt=""></div>
-                    <div class="swiper-slide"> <img class="imgBottom" src="./screenshots/Image 872.png" alt=""></div>
+                    <div class="swiper-slide"> <img src="./screenshots/Group 253.png" alt=""></div>
                     <div class="swiper-slide"> <img src="./screenshots/Group 254.png" alt=""></div>
                     <div class="swiper-slide"> <img src="./screenshots/Group 255.png" alt=""></div>
                     <div class="swiper-slide"> <img src="./screenshots/Group 256.png" alt=""></div>
@@ -159,17 +159,98 @@
                 </div>
             </div>
         </div>
-        <div class="swiper-pagination"></div>
 
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+        <svg class="swiper-button-prev" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+            <path fill="#FFF376"
+                d="M7.293 4.707 14.586 12l-7.293 7.293 1.414 1.414L17.414 12 8.707 3.293 7.293 4.707z" />
+        </svg>
 
+        <svg class="swiper-button-next" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+            <path fill="#FFF376"
+                d="M7.293 4.707 14.586 12l-7.293 7.293 1.414 1.414L17.414 12 8.707 3.293 7.293 4.707z" />
+        </svg>
+
+        <div class="header">
+            <div class="yourStart">
+                <div class="textAndImgStartWork">
+                    <h2> как выглядит старт работы: </h2>
+                    <img src="./screenshots/Group 264.png" alt="">
+                </div>
+                <div class="yourStartingPoints">
+                    <div>
+                        <div> 1 </div>
+                        <p> Вы получаете от нас коммерческое предложение </p>
+                    </div>
+                    <div>
+                        <div> 2 </div>
+                        <p> Мы с вами обсуждаем процент, который вы будете выплачивать нашим арбитражникам </p>
+                    </div>
+                    <div>
+                        <div> 3 </div>
+                        <p> Настраиваем на вашем сайте реферальную систему </p>
+                    </div>
+                    <div>
+                        <div> 4 </div>
+                        <p> Добавляем ваш сайт в наш сервис </p>
+                    </div>
+                    <div>
+                        <div> 5 </div>
+                        <p> Запускаем привлечение вам арбитражников и блогеров </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <form class="form" autocomplete="off" action='email.php' method='post'>
+                <h2> Форма заявки </h2>
+                <div>
+                    <div class="flex">
+                        <input placeholder="Ваше имя" type='text' name='username' required>
+                        <input placeholder="Ваш телеграм" type='text' name='username' required>
+                    </div>
+                    <div class="flex">
+                        <input placeholder="Ваш e-mail" type='text' name='usernumber' required>
+                        <input placeholder="Ваш номер телефона" type='text' name='username' required>
+                    </div>
+                </div>
+                <div>
+                    <input placeholder="Средняя стоимость чека" type='text' name='question'>
+                    <p> Для просчета оптимального процента, который будем давать арбитражникам с продажи </p>
+                </div>
+                <div>
+                    <input placeholder="Какой процент выделяется на маркетинг" type='text' name='question'>
+                    <p> Для просчета оптимального процента, который будем давать арбитражникам с продажи </p>
+                </div>
+                <div>
+                    <input placeholder="Сколько клиентов в день можете обслужить" type='text' name='question'>
+                    <p> Чтоб мы могли предложить тем блогерам, для которых сотрудничесвто с вами было бы
+                        рентабильно. </p>
+                </div>
+                <div class="flex">
+                    <input placeholder="Какая география продаж" type='text' name='username' required>
+                    <input placeholder="Ваш сайт" type='text' name='username' required>
+                </div>
+            </form>
+
+            <div class="flex footer">
+                <div>
+                    <a href="#">
+                        <img class="logo" src="./screenshots/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div>
+                    <a href="#"> Договор оферты </a>
+                    <a href="#"> Для рекламодателей </a>
+                </div>
+            </div>
         </div>
-        </div>
+        <div class="borderTop"></div>
     </header>
 </body>
 
+<script src="./JQuery.js"></script>
+<script src="./js/media.js"></script>
 <script src="./js/swiper/cdn.jsdelivr.net_npm_swiper@10_swiper-bundle.min.js"></script>
 <script src="./js/swiper/swiper.js"></script>
 
-</html> 
+</html>

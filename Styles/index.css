@@ -57,7 +57,7 @@
   display: flex;
   flex-wrap: wrap;
   margin-top: 100px;
-  margin-bottom: 300px;
+  margin-bottom: 191px;
 }
 .header .enterpreneurHeadache .enterpreneurHeadacheTitle {
   font-weight: 600;
@@ -218,4 +218,110 @@
   margin-top: 80px;
   display: flex;
   justify-content: space-around;
+}
+
+.yourStart {
+  display: flex;
+  margin-top: 100px;
+}
+.yourStart .textAndImgStartWork {
+  width: 500px;
+  margin-right: 80px;
+}
+.yourStart .textAndImgStartWork h2 {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.yourStart .textAndImgStartWork img {
+  min-width: 495px;
+  min-height: 393px;
+}
+.yourStart .yourStartingPoints div {
+  display: flex;
+  margin-bottom: 18px;
+}
+.yourStart .yourStartingPoints div div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 75px;
+  min-height: 75px;
+  background-color: #3E3E3E;
+  color: #FFF376;
+  font-size: 40px;
+  font-weight: 700;
+}
+.yourStart .yourStartingPoints div p {
+  display: flex;
+  max-height: 75px;
+  margin-left: 30px;
+  font-size: 23px;
+  line-height: 29px;
+}
+
+.form {
+  margin-bottom: 70px;
+}
+.form .flex {
+  display: flex;
+}
+.form input {
+  margin-bottom: 25px;
+  padding: 10px;
+  background-color: #3E3E3E;
+  width: 100%;
+  border-radius: 4px;
+}
+.form input::-moz-placeholder {
+  opacity: 0.8;
+  color: white;
+}
+.form input::placeholder {
+  opacity: 0.8;
+  color: white;
+}
+.form input:nth-child(2) {
+  margin-left: 25px;
+}
+.form p {
+  position: relative;
+  top: -20px;
+  font-size: 14px;
+}
+.form h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.borderTop {
+  position: relative;
+  width: 98.9vw !important;
+  height: 2px;
+  background-color: #3E3E3E;
+  top: -139px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer img {
+  width: 320px;
+  height: 124px;
+}
+.footer a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 24px;
+  font-weight: 400;
+  font-family: Graphik;
+}
+.footer a:nth-child(2) {
+  margin-left: 100px;
+  margin-right: 136px;
 }/*# sourceMappingURL=index.css.map */
