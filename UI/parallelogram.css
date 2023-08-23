@@ -1,21 +1,38 @@
+@import url(".././advertiserPage/Styles/fonts/stylesheet.css");
+
+@font-face {
+    font-family: "Graphik";
+    src: url(".././advertiserPage/Styles/fonts/Graphik-Thin.eot");
+}
+
 .parallelogram {
-    /* position: absolute; */
     margin-top: 40px;
     background-color: #fff376;
     padding: 20px 40px 20px 40px;
-    transform: skew(20deg);
+    transform: skew(-20deg);
     cursor: pointer;
     box-shadow: 0px 0px 28px 0px #1e1e1e33;
     max-width: 300px;
     word-break: break-all;
+    font-family: "Graphik";
 }
 
-.parallelogram p {
-    font-size: 20px;
-    transform: skew(-20deg);
-}
-
+.parallelogram p,
 .parallelogram span {
-    font-size: 20px;
-    transform: skew(-20deg);
+    transform: skew(20deg);
+}
+
+.parallelogram h2 {
+    width: 100px;
+    position: absolute;
+    top: 21%;
+    left: 127%;
+    transform: skew(20deg);
+}
+
+.h4 {
+    font-family: "Graphik";
+    font-size: 27px;
+    font-weight: 900;
+    transform: skew(20deg);
 }

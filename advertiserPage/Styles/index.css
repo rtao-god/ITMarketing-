@@ -1,11 +1,15 @@
-.flex {
-  display: flex;
-  justify-content: space-between;
+@import url("./fonts/stylesheet.css");
+@font-face {
+  font-family: "Graphik";
+  src: url("./fonts/Graphik-Thin.eot");
+}
+body {
+  overflow-x: hidden;
 }
 
 .header {
   margin: 20px auto 0 auto;
-  width: 1100px;
+  width: 1000px;
 }
 .header .logoAndLanguage {
   display: flex;
@@ -55,21 +59,24 @@
 }
 .header .enterpreneurHeadache {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 100px;
   margin-bottom: 191px;
 }
-.header .enterpreneurHeadache .enterpreneurHeadacheTitle {
-  font-weight: 600;
-  font-size: 45px;
-  display: flex;
-  justify-content: center;
+.header .enterpreneurHeadache h2 {
+  z-index: 1;
   width: 1000px;
+  font-family: "Graphik";
+  text-align: center;
 }
-.header .enterpreneurHeadache .enterpreneurHeadacheTitle p {
-  margin: 0 120px 0 120px;
+.header .enterpreneurHeadache .enterpreneurHeadacheFlex {
+  display: flex;
+  flex-wrap: wrap;
 }
 .header .enterpreneurHeadache .parallelogram {
+  max-height: 300px;
+  max-width: 300px;
   font-size: 10px;
   margin-left: 30px;
   margin-top: 70px;
@@ -77,26 +84,29 @@
 .header .enterpreneurHeadache .parallelogram span {
   position: absolute;
   top: -30px;
-  left: 15px;
+  left: 4px;
   font-size: 19px;
   font-weight: 600;
 }
 
 .youGet {
   background-color: #3E3E3E;
-  padding: 50px 120px 50px 120px;
+  padding: 145px 120px 50px 120px;
   width: 100%;
 }
 .youGet .blockAboutTheFounder {
   display: flex;
-  height: 420px;
+  height: 356px;
 }
 .youGet .blockAboutTheFounder .photoFounder {
   position: relative;
   top: -121px;
   width: 390px;
-  height: 500px;
+  height: 432px;
   margin-right: 60px;
+}
+.youGet .blockAboutTheFounder .borderBottomFounder {
+  border-bottom: 2px solid #FFF376;
 }
 .youGet .blockAboutTheFounder .block p {
   color: white;
@@ -118,6 +128,7 @@
   font-weight: 200;
 }
 .youGet .blockAboutTheFounder .block .youGetVectors {
+  margin-top: 30px;
   display: flex;
 }
 .youGet .blockAboutTheFounder .block .youGetVectors .vectorArrow {
@@ -133,10 +144,12 @@
   color: white;
 }
 .youGet .youGetFooter dl {
-  width: 488%;
-  margin-right: 100px;
+  width: 307%;
+  margin-right: 52px;
+  padding-bottom: 70px;
 }
 .youGet .youGetFooter dl dt {
+  text-transform: uppercase;
   font-size: 35px;
   color: #FFF376;
   margin-bottom: 30px;
@@ -213,8 +226,8 @@
 }
 
 .withUs h2 {
-  font-size: 55px;
-  font-weight: 600;
+  font-family: "Graphik";
+  text-transform: uppercase;
   margin-top: 80px;
   display: flex;
   justify-content: space-around;
@@ -319,7 +332,7 @@
   color: rgba(0, 0, 0, 0.8);
   font-size: 24px;
   font-weight: 400;
-  font-family: Graphik;
+  font-family: "Graphik";
 }
 .footer a:nth-child(2) {
   margin-left: 100px;

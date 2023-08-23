@@ -1,0 +1,43 @@
+.circle {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    top: 800px;
+    right: 100px;
+    background-color: rgb(255 255 0 / 34%);
+    opacity: 0.3;
+    -webkit-box-shadow: 4px 4px 42px 100px rgba(248, 244, 6, 0.422);
+    -moz-box-shadow: 4px 4px 42px 100px rgba(254, 250, 4, 0.426);
+    box-shadow: 4px 4px 42px 100px rgba(254, 250, 4, 0.34);
+}
+
+.circle:nth-child(1) {
+    top: -15%;
+    right: -7%;
+}
+
+.circle:nth-child(2) {
+    top: 133%;
+    right: -7%;
+}
+
+.circle:nth-child(3) {
+    top: 264%;
+    left: -7%;
+}
+
+.circle:nth-child(4) {
+    top: 415%;
+    left: -7%;
+}
+
+.circle:nth-child(5) {
+    top: 415%;
+    right: -7%;
+}
+
+.circle:nth-child(6) {
+    top: 415%;
+    left: -7%;
+}

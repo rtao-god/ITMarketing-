@@ -223,6 +223,7 @@
     background-color: #3E3E3E;
     padding: 7px 10px 0 9px;
     transform: rotate(180deg);
+    user-select: none;
 }
 
 .swiper-button-next {
@@ -232,6 +233,7 @@
     margin-left: 94%;
     background-color: #3E3E3E;
     padding: 7px 10px 0 9px;
+    user-select: none;
 }
 
 .swiper-button-next,
