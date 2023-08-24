@@ -14,7 +14,7 @@
     box-shadow: 0px 0px 28px 0px #1e1e1e33;
     max-width: 300px;
     word-break: break-all;
-    font-family: "Graphik";
+    font-family: "Graphik", sans-serif;
 }
 
 .parallelogram p,
@@ -28,11 +28,22 @@
     top: 21%;
     left: 127%;
     transform: skew(20deg);
+    font-family: "Graphik", sans-serif;
 }
 
 .h4 {
-    font-family: "Graphik";
+    font-family: "Graphik", sans-serif;
     font-size: 27px;
     font-weight: 900;
     transform: skew(20deg);
+}
+
+h5 {
+    font-family: "Graphik", sans-serif;
+    font-size: 19px;
+    font-weight: 900;
+    transform: skew(20deg);
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
 }
