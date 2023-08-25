@@ -1,0 +1,265 @@
+@import url("./fonts/stylesheet.css")
+
+@font-face
+    font-family: 'Graphik', sans-serif
+    src: url('./fonts/Graphik-Thin.eot')
+
+body
+    overflow-x: hidden
+
+.centerThePage
+    margin: 0 15px
+    & .logoAndLanguage
+        display: flex
+        align-items: center
+        justify-content: space-between
+        & a img
+            width: 200px
+            height: 124px
+            margin-bottom: 30px
+        & div
+            display: flex
+            align-items: center
+            position: relative
+            top: -10px
+            cursor: pointer
+            border-radius: 15px
+            background-color: #FFF376
+            padding: 10px
+            & p
+                font-weight: 700
+            & svg
+                margin-left: 10px
+                transform: rotate(90deg)
+
+.header
+    display: flex
+    align-items: center
+    flex-direction: column
+    & h4
+        font-size: 23px
+    & h2
+        font-size: 27px
+        margin-bottom: 30px
+    & p
+        opacity: 0.8
+    & .parallelogram
+        height: 100%
+
+.whatIsThis
+    padding: 20px
+    margin-top: 80px
+    & h2
+        margin-bottom: 30px
+    & .flex
+        display: flex
+        flex-direction: column
+        & p
+            opacity: 0.7
+            color: #090909
+        & div
+            position: relative
+            left: -5.5%
+            right: 0%
+            width: 100vw
+            margin-top: 30px
+            background-color: #3E3E3E
+            padding: 20px
+            & p
+                align-items: center
+                font-size: 20px
+                color: white
+                opacity: 0.9
+
+.whoCanParticipate
+    margin-bottom: 100px
+    padding-bottom: 40px
+    & h2
+        text-align: center
+        padding-top: 25px
+        padding-bottom: 30px
+        text-transform: uppercase
+    & p, h5
+        color: black
+        text-align: center
+    & h5
+        height: 27px
+        font-size: 15px
+        font-weight: 900
+    & h4
+        opacity: 0.9
+        margin-bottom: 0
+    & p
+        font-size: 12px
+    &  .whoCanParticipateRules a
+        color: #FFF376
+        font-weight: normal
+        font-size: 13px
+    & .parallelogram
+        width: 262px
+    & .flex
+        display: flex
+        justify-content: center
+        flex-wrap: wrap
+
+.steps
+    margin-bottom: 100px
+    align-content: center
+    display: flex
+    flex-direction: column
+    align-items: center
+    & h2
+        margin-bottom: 40px
+    & h3
+        font-size: 32px
+        font-weight: 700
+        text-transform: uppercase
+    & div
+        padding: 20px
+        margin-top: 30px
+        max-width: 285px
+        min-width: 285px
+        background-color: #FFF376
+
+.vertical
+    margin-bottom: 100px
+    display: flex
+    flex-direction: column
+    align-items: center
+    & h2
+        font-size: 30px
+    & h6
+        font-family: "Graphik", sans-serif
+        margin-top: 20px
+    & .parallelogram
+        background-color: #3E3E3E
+        color: white
+        min-width: 342px
+        & p
+            word-break: keep-all
+            font-size: 23px
+        &:nth-child(n+6)
+            background-color: #FFF376
+            color: black
+
+@media screen and (max-width: 320px)
+    .vertical .parallelogram
+        min-width: 240px
+
+.present
+    margin-bottom: 100px
+    display: flex
+    flex-direction: column
+    align-items: center
+    & h2
+        margin-bottom: 20px
+        font-size: 32px
+        text-transform: uppercase
+    & img
+        height: 315px
+    & .flexWrap
+        display: flex
+        flex-wrap: wrap
+        justify-content: center
+        align-items: center
+        margin-top: 20px
+        & img
+            margin-right: 15px
+            width: 125px
+            height: 125px
+            margin-top: 20px
+
+    & .parallelogram
+        & p
+            font-size: 24px
+
+.FAQAll
+    z-index: 1010
+    & h2
+        margin-bottom: 40px
+    & .FAQ
+        color: white
+        & .flex
+            margin-bottom: 40px
+            padding: 20px
+            background-color: #3E3E3E
+            height: 62px
+            & h3
+                font-size: 15px
+
+            & svg
+                position: relative
+                width: 34px
+                height: 36px
+                cursor: pointer
+                top: -37%
+                min-width: 100px
+                min-height: 40px
+            & .active
+                top: -3%
+    & .FAQResponse
+        display: none
+        margin-right: 100px
+        opacity: 0.9
+
+.askQuestion
+    margin-top: 100px
+    & .askQuestionTop
+        background-color: #3E3E3E
+        color: white
+        padding: 30px
+        & p
+            opacity: 0.9
+            font-weight: 500
+            margin-bottom: 30px
+    & .askQuestionInput
+        display: flex
+        flex-direction: column
+        & input
+            padding: 5px
+            margin-bottom: 30px
+            background-color: #3E3E3E
+            border: 0
+            outline: none
+            color: white
+            border-bottom: 1px solid white
+            &::placeholder
+                color: white
+    & .askQuestionBottom
+        background-color: #FFF376
+        padding: 30px
+        & a
+            color: black
+            text-decoration: none
+            font-weight: 600
+            font-size: 21px
+            font-family: "Graphik", sans-serif
+        & div
+            padding-bottom: 30px
+
+.borderTop
+    position: relative
+    width: 98.9vw !important
+    height: 2px
+    background-color: #3E3E3E
+    top: -285px
+
+.footer
+    display: flex
+    align-items: center
+    flex-direction: column
+    padding-bottom: 30px
+    & img
+        width: 320px
+        height: 124px
+    & div
+        display: flex
+        flex-direction: column
+        align-items: center
+        & a
+            text-decoration: none
+            padding-bottom: 20px
+            color: #000000CC
+            font-size: 24px
+            font-weight: 400
+            font-family: "Graphik", sans-serif
