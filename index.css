@@ -218,3 +218,12 @@ dd {
     height: 92%;
     max-height: 93%;
 }
+
+
+#languageRu {
+    display: none;
+}
+
+#languageUa {
+    display: none;
+}

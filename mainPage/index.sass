@@ -65,15 +65,26 @@ body
             & svg
                 margin-left: 10px
                 transform: rotate(90deg)
-    .header
-        & h4
-            font-size: 36px
-            font: sans-serif
-            &::before
-                content: url("./screenshots/Group 35703.png")
-                position: relative
-                top: 20px
-                right: 40px
+
+.imgRectangle_193 img
+    &:nth-child(1)
+        position: absolute
+        top: -19%
+        left: 8%
+    &:nth-child(2)
+        position: absolute
+        top: -19%
+        left: 5%
+
+.header
+    & h4
+        font-size: 36px
+        font: sans-serif
+        &::before
+            content: url("./screenshots/Group 35703.png")
+            position: relative
+            top: 20px
+            right: 40px
             &::after
                 content: url("./screenshots/Group 35703.png")
                 position: relative
@@ -99,7 +110,7 @@ body
             margin-right: 20px
             opacity: 0.7
             color: #090909
-        & div
+        & span
             display: flex
             align-items: center
             background-color: #FFF376
