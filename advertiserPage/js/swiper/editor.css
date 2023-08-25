@@ -16,7 +16,7 @@
     overflow: hidden;
     overflow: clip;
     list-style: none;
-    width: 1010px;
+    max-width: 1010px;
     padding: 0;
     z-index: 1;
     display: block;
@@ -218,22 +218,22 @@
 .swiper-button-prev {
     width: 40px;
     height: 40px;
-    top: -94px;
-    margin-left: 3%;
-    background-color: #3E3E3E;
+    /* top: -101px;
+    margin-left: 8%;
+    background-color: #3e3e3e;
     padding: 7px 10px 0 9px;
     transform: rotate(180deg);
-    user-select: none;
+    user-select: none; */
 }
 
 .swiper-button-next {
     width: 40px;
     height: 40px;
-    top: -104px;
-    margin-left: 94%;
-    background-color: #3E3E3E;
+    /*   top: -119px;
+    margin-left: 88%;
+    background-color: #3e3e3e;
     padding: 7px 10px 0 9px;
-    user-select: none;
+    user-select: none; */
 }
 
 .swiper-button-next,
