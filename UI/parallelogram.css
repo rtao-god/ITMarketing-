@@ -19,6 +19,7 @@
 
 .parallelogram p,
 .parallelogram span {
+    text-align: center;
     transform: skew(20deg);
 }
 

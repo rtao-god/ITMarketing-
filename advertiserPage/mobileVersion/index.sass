@@ -8,17 +8,12 @@ body
     overflow-x: hidden
 
 .header
-    margin: 20px auto 0 auto
-    width: 1000px
+    margin: 10px 20px 0 20px
     & .logoAndLanguage
         display: flex
         align-items: center
         justify-content: space-between
-        & a img
-            width: 320px
-            height: 124px
-            margin-bottom: 30px
-            border-bottom: 2px solid#FFF376
+
         & div
             display: flex
             align-items: center
@@ -35,13 +30,16 @@ body
                 transform: rotate(90deg)
 
     & .headerFlex
-        display: flex
-        align-items: center
         & p
-            font-size: 50px
+            font-size: 42px
+            z-index: 1
+            position: relative
             font-weight: 700
+            text-align: center
         & .parallelogram
-            width: 224px
+            position: relative
+            left: 13%
+            width: 305px
             & p
                 font-size: 25px
         & .bigImg
@@ -49,9 +47,6 @@ body
             height: 340px
 
     & .enterpreneurHeadache
-        display: flex
-        justify-content: space-between
-        flex-wrap: wrap
         margin-top: 100px
         margin-bottom: 191px
         & h2
@@ -61,6 +56,8 @@ body
             text-align: center
         & .enterpreneurHeadacheFlex
             display: flex
+            flex-direction: column
+            align-content: center
             flex-wrap: wrap
         & .parallelogram
             max-height: 300px
@@ -71,14 +68,13 @@ body
             & span
                 position: absolute
                 top: -30px
-                left: 4px
+                left: 130px
                 font-size: 19px
                 font-weight: 600
 
 .youGet
-    background-color: #3E3E3E
-    padding: 145px 120px 50px 120px
     width: 100%
+    background-color: #3E3E3E
     & .blockAboutTheFounder
         display: flex
         height: 356px
@@ -101,6 +97,7 @@ body
                 font-size: 30px
                 font-weight: 600
                 width: 100%
+                padding: 0 10px
                 & span
                     color: #FFF376
                     text-transform: uppercase
@@ -122,15 +119,17 @@ body
                     height: 70px
 
     & .youGetFooter
-        display: flex
+        // display: flex
         color: white
+        margin-top: 157px
+        padding: 10px
         & dl
             width: 307%
             margin-right: 52px
             padding-bottom: 70px
             & dt
                 text-transform: uppercase
-                font-size: 35px
+                font-size: 20px
                 color: #FFF376
                 margin-bottom: 30px
             & dd

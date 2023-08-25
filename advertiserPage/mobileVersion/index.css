@@ -8,19 +8,12 @@ body {
 }
 
 .header {
-  margin: 20px auto 0 auto;
-  width: 1000px;
+  margin: 10px 20px 0 20px;
 }
 .header .logoAndLanguage {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-.header .logoAndLanguage a img {
-  width: 320px;
-  height: 124px;
-  margin-bottom: 30px;
-  border-bottom: 2px solid #FFF376;
 }
 .header .logoAndLanguage div {
   display: flex;
@@ -39,16 +32,17 @@ body {
   margin-left: 10px;
   transform: rotate(90deg);
 }
-.header .headerFlex {
-  display: flex;
-  align-items: center;
-}
 .header .headerFlex p {
-  font-size: 50px;
+  font-size: 42px;
+  z-index: 1;
+  position: relative;
   font-weight: 700;
+  text-align: center;
 }
 .header .headerFlex .parallelogram {
-  width: 224px;
+  position: relative;
+  left: 13%;
+  width: 305px;
 }
 .header .headerFlex .parallelogram p {
   font-size: 25px;
@@ -58,9 +52,6 @@ body {
   height: 340px;
 }
 .header .enterpreneurHeadache {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
   margin-top: 100px;
   margin-bottom: 191px;
 }
@@ -72,6 +63,8 @@ body {
 }
 .header .enterpreneurHeadache .enterpreneurHeadacheFlex {
   display: flex;
+  flex-direction: column;
+  align-content: center;
   flex-wrap: wrap;
 }
 .header .enterpreneurHeadache .parallelogram {
@@ -84,15 +77,14 @@ body {
 .header .enterpreneurHeadache .parallelogram span {
   position: absolute;
   top: -30px;
-  left: 4px;
+  left: 130px;
   font-size: 19px;
   font-weight: 600;
 }
 
 .youGet {
-  background-color: #3E3E3E;
-  padding: 145px 120px 50px 120px;
   width: 100%;
+  background-color: #3E3E3E;
 }
 .youGet .blockAboutTheFounder {
   display: flex;
@@ -118,6 +110,7 @@ body {
   font-size: 30px;
   font-weight: 600;
   width: 100%;
+  padding: 0 10px;
 }
 .youGet .blockAboutTheFounder .block p span {
   color: #FFF376;
@@ -145,8 +138,9 @@ body {
   height: 70px;
 }
 .youGet .youGetFooter {
-  display: flex;
   color: white;
+  margin-top: 157px;
+  padding: 10px;
 }
 .youGet .youGetFooter dl {
   width: 307%;
@@ -155,7 +149,7 @@ body {
 }
 .youGet .youGetFooter dl dt {
   text-transform: uppercase;
-  font-size: 35px;
+  font-size: 20px;
   color: #FFF376;
   margin-bottom: 30px;
 }

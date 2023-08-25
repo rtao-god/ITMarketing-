@@ -1,0 +1,9 @@
+img {
+    width: -webkit-calc(100% - 100px);
+    width: -moz-calc(100% - 100px);
+    width: calc(100% - 100px);
+}
+
+p {
+    font-size: 10px;
+}
