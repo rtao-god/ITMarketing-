@@ -56,8 +56,6 @@ body {
   margin-bottom: 191px;
 }
 .header .enterpreneurHeadache h2 {
-  z-index: 1;
-  width: 1000px;
   font-family: "Graphik", sans-serif;
   text-align: center;
 }
@@ -143,8 +141,6 @@ body {
   padding: 10px;
 }
 .youGet .youGetFooter dl {
-  width: 307%;
-  margin-right: 52px;
   padding-bottom: 70px;
 }
 .youGet .youGetFooter dl dt {
@@ -154,72 +150,29 @@ body {
   margin-bottom: 30px;
 }
 .youGet .youGetFooter dl dd {
-  font-size: 20px;
   display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  font-size: 18px;
 }
 .youGet .youGetFooter dl dd span {
-  margin-left: 30px;
+  margin-left: 16px;
   text-transform: uppercase;
 }
-.youGet .youGetFooter dl dd:nth-child(4) {
+.youGet .youGetFooter dl dd img {
   position: relative;
-  top: 50px;
-}
-.youGet .youGetFooter dl dd .absoluteFirst {
-  position: relative;
-}
-.youGet .youGetFooter dl dd .absoluteFirst img {
-  position: relative;
-}
-.youGet .youGetFooter dl dd .absoluteFirst img:nth-child(2) {
-  top: -42px;
-}
-.youGet .youGetFooter dl dd .absoluteSecond {
-  position: relative;
-  top: -65px;
-  height: 20px;
-}
-.youGet .youGetFooter dl dd .absoluteSecond img {
-  position: relative;
-}
-.youGet .youGetFooter dl dd .absoluteSecond img:nth-child(1) {
-  left: 14px;
-  top: 84px;
-}
-.youGet .youGetFooter dl dd .absoluteSecond img:nth-child(2) {
-  left: 12px;
-  top: 77px;
-}
-.youGet .youGetFooter dl dd .absoluteSecond img:nth-child(3) {
-  left: -5px;
-  top: 46px;
-}
-.youGet .youGetFooter dl dd .absoluteSecond img:nth-child(4) {
-  left: -7px;
-  top: 19px;
-}
-.youGet .youGetFooter dl dd .absoluteSecond img:nth-child(5) {
-  top: -9px;
-  left: 9px;
-}
-.youGet .youGetFooter dl dd .absoluteSecond img:nth-child(6) {
-  top: -10px;
-}
-.youGet .youGetFooter dl dd .absoluteThird {
-  position: relative;
-  top: -10px;
-}
-.youGet .youGetFooter dl dd .absoluteThird img {
-  position: relative;
+  width: 50px;
+  height: 50px;
 }
 .youGet .youGetFooter .aboutUs {
   font-size: 18px;
   font-weight: 200;
   line-height: 29px;
+  padding-bottom: 30px;
 }
 .youGet .youGetFooter .quotesFrame {
-  position: relative;
-  left: 40px;
+  margin-left: 88%;
+  margin-bottom: 10px;
   width: 40px;
   height: 40px;
 }
@@ -233,22 +186,13 @@ body {
 }
 
 .yourStart {
-  display: flex;
   margin-top: 100px;
 }
-.yourStart .textAndImgStartWork {
-  width: 500px;
-  margin-right: 80px;
-}
-.yourStart .textAndImgStartWork h2 {
+.yourStart h2 {
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 600;
   margin-bottom: 30px;
-}
-.yourStart .textAndImgStartWork img {
-  min-width: 495px;
-  min-height: 393px;
 }
 .yourStart .yourStartingPoints div {
   display: flex;
@@ -258,8 +202,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 75px;
-  min-height: 75px;
+  min-width: 45px;
+  min-height: 45px;
   background-color: #3E3E3E;
   color: #FFF376;
   font-size: 40px;
@@ -267,10 +211,12 @@ body {
 }
 .yourStart .yourStartingPoints div p {
   display: flex;
-  max-height: 75px;
-  margin-left: 30px;
-  font-size: 23px;
-  line-height: 29px;
+  max-height: 45px;
+  margin-left: 15px;
+  font-size: 12px;
+  line-height: 17px;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .form {
@@ -296,9 +242,6 @@ body {
   opacity: 0.8;
   color: white;
 }
-.form input:nth-child(2) {
-  margin-left: 25px;
-}
 .form p {
   position: relative;
   top: -20px;
@@ -321,8 +264,11 @@ body {
 
 .footer {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .footer img {
   width: 320px;
@@ -334,8 +280,5 @@ body {
   font-size: 24px;
   font-weight: 400;
   font-family: "Graphik", sans-serif;
-}
-.footer a:nth-child(2) {
-  margin-left: 100px;
-  margin-right: 136px;
+  margin-left: 50vw;
 }/*# sourceMappingURL=index.css.map */

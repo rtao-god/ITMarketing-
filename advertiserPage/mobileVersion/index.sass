@@ -50,8 +50,6 @@ body
         margin-top: 100px
         margin-bottom: 191px
         & h2
-            z-index: 1
-            width: 1000px
             font-family: "Graphik", sans-serif
             text-align: center
         & .enterpreneurHeadacheFlex
@@ -119,13 +117,10 @@ body
                     height: 70px
 
     & .youGetFooter
-        // display: flex
         color: white
         margin-top: 157px
         padding: 10px
         & dl
-            width: 307%
-            margin-right: 52px
             padding-bottom: 70px
             & dt
                 text-transform: uppercase
@@ -133,55 +128,25 @@ body
                 color: #FFF376
                 margin-bottom: 30px
             & dd
-                font-size: 20px
                 display: flex
+                align-items: center
+                margin-bottom: 40px
+                font-size: 18px
                 & span
-                    margin-left: 30px
+                    margin-left: 16px
                     text-transform: uppercase
-                &:nth-child(4)
+                & img
                     position: relative
-                    top: 50px
-                & .absoluteFirst
-                    position: relative
-                    & img
-                        position: relative
-                        &:nth-child(2)
-                            top: -42px
-                & .absoluteSecond
-                    position: relative
-                    top: -65px
-                    height: 20px
-                    & img
-                        position: relative
-                        &:nth-child(1)
-                            left: 14px
-                            top: 84px
-                        &:nth-child(2)
-                            left: 12px
-                            top: 77px
-                        &:nth-child(3)
-                            left: -5px
-                            top: 46px
-                        &:nth-child(4)
-                            left: -7px
-                            top: 19px
-                        &:nth-child(5)
-                            top: -9px
-                            left: 9px
-                        &:nth-child(6)
-                            top: -10px
-                & .absoluteThird
-                    position: relative
-                    top: -10px
-                    & img
-                        position: relative
+                    width: 50px
+                    height: 50px
         & .aboutUs
             font-size: 18px
             font-weight: 200
             line-height: 29px
+            padding-bottom: 30px
         & .quotesFrame
-            position: relative
-            left: 40px
+            margin-left: 88%
+            margin-bottom: 10px
             width: 40px
             height: 40px
 
@@ -194,20 +159,12 @@ body
         justify-content: space-around
 
 .yourStart
-    display: flex
     margin-top: 100px
-    & .textAndImgStartWork
-        width: 500px
-        margin-right: 80px
-        & h2
-            text-transform: uppercase
-            font-size: 40px
-            font-weight: 600
-            margin-bottom: 30px
-        & img
-            min-width: 495px
-            min-height: 393px
-
+    & h2
+        text-transform: uppercase
+        font-size: 30px
+        font-weight: 600
+        margin-bottom: 30px
     & .yourStartingPoints
         & div
             display: flex
@@ -216,18 +173,20 @@ body
                 display: flex
                 justify-content: center
                 align-items: center
-                min-width: 75px
-                min-height: 75px
+                min-width: 45px
+                min-height: 45px
                 background-color: #3E3E3E
                 color: #FFF376
                 font-size: 40px
                 font-weight: 700
             & p
                 display: flex
-                max-height: 75px
-                margin-left: 30px
-                font-size: 23px
-                line-height: 29px
+                max-height: 45px
+                margin-left: 15px
+                font-size: 12px
+                line-height: 17px
+                align-items: center
+                justify-content: flex-start
 
 .form
     margin-bottom: 100px
@@ -244,8 +203,6 @@ body
         &::placeholder
             opacity: 0.8
             color: white
-        &:nth-child(2)
-            margin-left: 25px
     & p
         position: relative
         top: -20px
@@ -266,8 +223,11 @@ body
 
 .footer
     display: flex
-    justify-content: space-between
-    align-items: center
+    flex-direction: column
+    align-content: center
+    align-items: stretch
+    justify-content: center
+    flex-wrap: wrap
     & img
         width: 320px
         height: 124px
@@ -277,6 +237,4 @@ body
         font-size: 24px
         font-weight: 400
         font-family: "Graphik", sans-serif
-        &:nth-child(2)
-            margin-left: 100px
-            margin-right: 136px
+        margin-left: 50vw
