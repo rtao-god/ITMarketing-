@@ -74,8 +74,7 @@ body {
 }
 .whatIsThis .flex div {
   position: relative;
-  left: -5.5%;
-  right: 0%;
+  left: -20px;
   width: 100vw;
   margin-top: 30px;
   background-color: #3E3E3E;
@@ -86,6 +85,9 @@ body {
   font-size: 20px;
   color: white;
   opacity: 0.9;
+}
+.whatIsThis .flex .parallelogram {
+  width: 150px;
 }
 
 .whoCanParticipate {
@@ -103,8 +105,8 @@ body {
   text-align: center;
 }
 .whoCanParticipate h5 {
-  height: 27px;
-  font-size: 15px;
+  height: 16px;
+  font-size: 13px;
   font-weight: 900;
 }
 .whoCanParticipate h4 {
@@ -112,10 +114,14 @@ body {
   margin-bottom: 0;
 }
 .whoCanParticipate p {
-  font-size: 12px;
+  font-size: 10px;
 }
 .whoCanParticipate .parallelogram {
   width: 262px;
+  padding: 10px;
+}
+.whoCanParticipate .parallelogram p {
+  word-break: keep-all;
 }
 .whoCanParticipate .flex {
   display: flex;
@@ -166,7 +172,7 @@ body {
 }
 .vertical .parallelogram p {
   word-break: keep-all;
-  font-size: 23px;
+  font-size: 17px;
 }
 .vertical .parallelogram:nth-child(n+6) {
   background-color: #FFF376;
