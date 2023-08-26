@@ -240,9 +240,13 @@ body {
   right: 0;
   min-width: 20px;
   min-height: 20px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .FAQAll .FAQ .flex .active {
-  top: -4%;
+  position: relative;
+  top: -6%;
 }
 .FAQAll .FAQResponse {
   margin-top: 15px;
@@ -250,6 +254,7 @@ body {
   display: none;
   margin-right: 0;
   opacity: 0.9;
+  padding-bottom: 20px;
 }
 
 .askQuestion {
