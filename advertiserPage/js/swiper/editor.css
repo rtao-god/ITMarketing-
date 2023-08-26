@@ -58,7 +58,6 @@
 }
 .swiper-autoheight,
 .swiper-autoheight .swiper-slide {
-    height: auto;
 }
 .swiper-autoheight .swiper-wrapper {
     align-items: flex-start;
@@ -218,22 +217,11 @@
 .swiper-button-prev {
     width: 40px;
     height: 40px;
-    /* top: -101px;
-    margin-left: 8%;
-    background-color: #3e3e3e;
-    padding: 7px 10px 0 9px;
-    transform: rotate(180deg);
-    user-select: none; */
 }
 
 .swiper-button-next {
     width: 40px;
     height: 40px;
-    /*   top: -119px;
-    margin-left: 88%;
-    background-color: #3e3e3e;
-    padding: 7px 10px 0 9px;
-    user-select: none; */
 }
 
 .swiper-button-next,

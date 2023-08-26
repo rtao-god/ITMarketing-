@@ -199,10 +199,9 @@ body {
   margin-top: -18px;
 }
 .withUs .swiper-slide {
-  max-width: 420px;
-  max-height: 420px;
-  width: 200px;
-  height: 200px;
+  max-width: 199px;
+  max-height: 199px;
+  margin-left: 95px;
 }
 .withUs .swiper-button-prev {
   position: relative;
