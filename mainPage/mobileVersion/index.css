@@ -114,11 +114,6 @@ body {
 .whoCanParticipate p {
   font-size: 12px;
 }
-.whoCanParticipate .whoCanParticipateRules a {
-  color: #FFF376;
-  font-weight: normal;
-  font-size: 13px;
-}
 .whoCanParticipate .parallelogram {
   width: 262px;
 }
