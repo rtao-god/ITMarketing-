@@ -69,11 +69,12 @@ body {
 }
 .enterpreneurHeadache h2 {
   word-break: keep-all;
-  font-size: 30px;
+  font-size: 25px;
   z-index: 1;
   position: relative;
   font-weight: 700;
   text-align: center;
+  text-transform: uppercase;
 }
 .enterpreneurHeadache .enterpreneurHeadacheFlex {
   display: flex;
@@ -93,7 +94,7 @@ body {
 .enterpreneurHeadache .parallelogram span {
   position: absolute;
   top: -30px;
-  margin-left: 25%;
+  margin-left: 32%;
   font-size: 19px;
   font-weight: 600;
 }
@@ -216,7 +217,7 @@ body {
 }
 .withUs .swiper-button-next {
   position: relative;
-  top: 16vh;
+  top: 14vh;
   margin-right: -2%;
   background-color: #3e3e3e;
   padding: 7px 10px 0 9px;
