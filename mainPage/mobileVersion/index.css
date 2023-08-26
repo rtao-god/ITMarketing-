@@ -114,10 +114,10 @@ body {
   margin-bottom: 0;
 }
 .whoCanParticipate p {
-  font-size: 10px;
+  font-size: 11px;
 }
 .whoCanParticipate .parallelogram {
-  width: 262px;
+  width: 290px;
   padding: 10px;
 }
 .whoCanParticipate .parallelogram p {
@@ -168,7 +168,7 @@ body {
 .vertical .parallelogram {
   background-color: #3E3E3E;
   color: white;
-  min-width: 150px;
+  min-width: 290px;
 }
 .vertical .parallelogram p {
   word-break: keep-all;
