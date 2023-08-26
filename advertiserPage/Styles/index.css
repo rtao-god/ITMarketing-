@@ -9,7 +9,7 @@ body {
 
 .header {
   margin: 20px auto 0 auto;
-  width: 1000px;
+  max-width: 1200px;
 }
 .header .logoAndLanguage {
   display: flex;
@@ -42,56 +42,81 @@ body {
 .header .headerFlex {
   display: flex;
   align-items: center;
+  justify-content: center;
+  margin-bottom: 140px;
+}
+.header .headerFlex h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 47px;
+  word-break: keep-all;
 }
 .header .headerFlex p {
   font-size: 50px;
   font-weight: 700;
-}
-.header .headerFlex .parallelogram {
-  width: 224px;
+  word-break: keep-all;
 }
 .header .headerFlex .parallelogram p {
-  font-size: 25px;
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 .header .headerFlex .bigImg {
   width: 659px;
   height: 340px;
 }
-.header .enterpreneurHeadache {
+
+.enterpreneurHeadache {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 100px;
   margin-bottom: 191px;
+  height: 100%;
 }
-.header .enterpreneurHeadache h2 {
-  z-index: 1;
-  width: 1000px;
-  font-family: "Graphik", sans-serif;
+.enterpreneurHeadache .backgroundBlock {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  background-color: #fafafa;
+  width: 100%;
+  height: 100%;
+}
+.enterpreneurHeadache h2 {
+  padding: 30px;
+  text-transform: uppercase;
   text-align: center;
+  word-break: keep-all;
+  font-weight: 700;
+  font-size: 38px;
 }
-.header .enterpreneurHeadache .enterpreneurHeadacheFlex {
+.enterpreneurHeadache .enterpreneurHeadacheFlex {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
-.header .enterpreneurHeadache .parallelogram {
+.enterpreneurHeadache .enterpreneurHeadacheFlex .parallelogram {
   max-height: 300px;
-  max-width: 300px;
-  font-size: 10px;
+  max-width: 370px;
+  font-size: 20px;
   margin-left: 30px;
   margin-top: 70px;
 }
-.header .enterpreneurHeadache .parallelogram span {
+.enterpreneurHeadache .enterpreneurHeadacheFlex .parallelogram span {
   position: absolute;
   top: -30px;
   left: 4px;
   font-size: 19px;
   font-weight: 600;
 }
+.enterpreneurHeadache .enterpreneurHeadacheFlex .parallelogram p {
+  font-size: 21px;
+}
 
 .youGet {
   background-color: #3E3E3E;
   padding: 145px 120px 50px 120px;
+  padding: 145px 20vw 50px 20vw;
   width: 100%;
 }
 .youGet .blockAboutTheFounder {
@@ -100,28 +125,24 @@ body {
 }
 .youGet .blockAboutTheFounder .photoFounder {
   position: relative;
-  top: -121px;
+  top: -190px;
   width: 390px;
   height: 432px;
   margin-right: 60px;
 }
-.youGet .blockAboutTheFounder .borderBottomFounder {
-  width: 685px;
-  height: 1000px;
-  left: 0%;
-  top: 86%;
-  position: absolute;
-  border-bottom: 2px solid #FFF376;
-}
 .youGet .blockAboutTheFounder .block p {
+  position: relative;
+  top: -100px;
   color: white;
   font-size: 30px;
   font-weight: 600;
   width: 100%;
+  word-break: keep-all;
 }
 .youGet .blockAboutTheFounder .block p span {
   color: #FFF376;
   text-transform: uppercase;
+  word-break: keep-all;
 }
 .youGet .blockAboutTheFounder .block .founder p:nth-child(1) {
   border-top: 2px solid #FFF376;
@@ -131,9 +152,10 @@ body {
 .youGet .blockAboutTheFounder .block .founder p:nth-child(3) {
   font-size: 20px;
   font-weight: 200;
+  opacity: 0.8;
 }
 .youGet .blockAboutTheFounder .block .youGetVectors {
-  margin-top: 30px;
+  margin-top: -65px;
   display: flex;
 }
 .youGet .blockAboutTheFounder .block .youGetVectors .vectorArrow {
@@ -147,79 +169,54 @@ body {
 .youGet .youGetFooter {
   display: flex;
   color: white;
+  margin-top: -85px;
 }
 .youGet .youGetFooter dl {
   width: 307%;
-  margin-right: 52px;
-  padding-bottom: 70px;
 }
 .youGet .youGetFooter dl dt {
   text-transform: uppercase;
   font-size: 35px;
+  font-weight: 600;
   color: #FFF376;
   margin-bottom: 30px;
+  word-break: keep-all;
+  font-family: "Graphik", sans-serif;
+}
+.youGet .youGetFooter dl dt::after {
+  position: relative;
+  top: -76px;
+  content: "";
+  max-width: 1000px;
+  height: 2px;
+  margin-left: -100%;
+  background-color: #FFF376;
+  display: block;
+  opacity: 0.6;
 }
 .youGet .youGetFooter dl dd {
-  font-size: 20px;
   display: flex;
+  align-items: center;
+  font-size: 24px;
+  opacity: 0.9;
+  font-weight: normal;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  word-break: keep-all;
 }
 .youGet .youGetFooter dl dd span {
   margin-left: 30px;
+  font-size: 20px;
+  word-break: keep-all;
   text-transform: uppercase;
 }
-.youGet .youGetFooter dl dd:nth-child(4) {
-  position: relative;
-  top: 50px;
-}
-.youGet .youGetFooter dl dd .absoluteFirst {
-  position: relative;
-}
-.youGet .youGetFooter dl dd .absoluteFirst img {
-  position: relative;
-}
-.youGet .youGetFooter dl dd .absoluteFirst img:nth-child(2) {
-  top: -42px;
-}
-.youGet .youGetFooter dl dd .absoluteSecond {
-  position: relative;
-  top: -65px;
-  height: 20px;
-}
-.youGet .youGetFooter dl dd .absoluteSecond img {
-  position: relative;
-}
-.youGet .youGetFooter dl dd .absoluteSecond img:nth-child(1) {
-  left: 14px;
-  top: 84px;
-}
-.youGet .youGetFooter dl dd .absoluteSecond img:nth-child(2) {
-  left: 12px;
-  top: 77px;
-}
-.youGet .youGetFooter dl dd .absoluteSecond img:nth-child(3) {
-  left: -5px;
-  top: 46px;
-}
-.youGet .youGetFooter dl dd .absoluteSecond img:nth-child(4) {
-  left: -7px;
-  top: 19px;
-}
-.youGet .youGetFooter dl dd .absoluteSecond img:nth-child(5) {
-  top: -9px;
-  left: 9px;
-}
-.youGet .youGetFooter dl dd .absoluteSecond img:nth-child(6) {
-  top: -10px;
-}
-.youGet .youGetFooter dl dd .absoluteThird {
-  position: relative;
-  top: -10px;
-}
-.youGet .youGetFooter dl dd .absoluteThird img {
-  position: relative;
+.youGet .youGetFooter dl dd img {
+  width: 40px;
+  height: 40px;
 }
 .youGet .youGetFooter .aboutUs {
-  font-size: 18px;
+  font-size: 22px;
+  opacity: 0.9;
   font-weight: 200;
   line-height: 29px;
 }
@@ -230,27 +227,71 @@ body {
   height: 40px;
 }
 
+@media screen and (max-width: 1464px) {
+  .youGet {
+    padding: 145px 10vw 50px 10vw;
+  }
+}
 .withUs h2 {
   font-family: "Graphik", sans-serif;
   text-transform: uppercase;
   margin-top: 80px;
+  font-size: 43px;
   display: flex;
   justify-content: space-around;
+  word-break: keep-all;
+}
+.withUs svg {
+  background-color: #3e3e3e;
+  padding: 7px 10px 0 9px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.withUs .swiper-button-prev {
+  margin-top: -12.5vh;
+  margin-left: 20vw;
+  transform: rotate(180deg);
+}
+.withUs .swiper-button-next {
+  position: relative;
+  top: 158px;
+  margin-left: 78vw;
+}
+@media screen and (max-width: 1500px) {
+  .withUs .swiper-button-prev {
+    margin-top: -16vh;
+    margin-left: 11vw;
+  }
+  .withUs .swiper-button-next {
+    margin-left: 88vw;
+  }
+}
+@media screen and (max-width: 1340px) {
+  .withUs .swiper-button-prev {
+    margin-top: -16vh;
+    margin-left: 4vw;
+  }
+  .withUs .swiper-button-next {
+    margin-left: 93vw;
+  }
 }
 
 .yourStart {
   display: flex;
-  margin-top: 100px;
+  margin-top: 200px;
 }
 .yourStart .textAndImgStartWork {
   width: 500px;
   margin-right: 80px;
+  word-break: keep-all;
 }
 .yourStart .textAndImgStartWork h2 {
   text-transform: uppercase;
-  font-size: 40px;
-  font-weight: 600;
+  font-size: 44px;
+  font-weight: 700;
   margin-bottom: 30px;
+  word-break: keep-all;
 }
 .yourStart .textAndImgStartWork img {
   min-width: 495px;
@@ -270,6 +311,7 @@ body {
   color: #FFF376;
   font-size: 40px;
   font-weight: 700;
+  font-family: "Graphik", sans-serif;
 }
 .yourStart .yourStartingPoints div p {
   display: flex;
@@ -283,23 +325,33 @@ body {
   margin-bottom: 100px;
   margin-top: 100px;
 }
+.form h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 44px;
+  margin-bottom: 40px;
+  word-break: keep-all;
+  text-transform: uppercase;
+}
 .form .flex {
   display: flex;
 }
 .form input {
   color: white;
   margin-bottom: 25px;
-  padding: 10px;
+  padding: 20px;
   background-color: #3E3E3E;
   width: 100%;
   border-radius: 4px;
 }
 .form input::-moz-placeholder {
   opacity: 0.8;
+  font-size: 22px;
   color: white;
 }
 .form input::placeholder {
   opacity: 0.8;
+  font-size: 22px;
   color: white;
 }
 .form input:nth-child(2) {
@@ -308,13 +360,9 @@ body {
 .form p {
   position: relative;
   top: -20px;
-  font-size: 13px;
-}
-.form h2 {
-  display: flex;
-  justify-content: center;
-  font-size: 41px;
-  margin-bottom: 40px;
+  font-size: 15px;
+  opacity: 0.8;
+  word-break: keep-all;
 }
 
 .borderTop {

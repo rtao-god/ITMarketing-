@@ -24,9 +24,11 @@ body {
   border-radius: 15px;
   background-color: #FFF376;
   padding: 10px;
+  word-break: keep-all;
 }
 .header .logoAndLanguage div p {
   font-weight: 700;
+  word-break: keep-all;
 }
 .header .logoAndLanguage div svg {
   margin-left: 10px;
@@ -43,6 +45,7 @@ body {
   height: 340px;
 }
 .headerFlex p {
+  word-break: keep-all;
   font-size: 30px;
   z-index: 1;
   position: relative;
@@ -56,6 +59,7 @@ body {
 }
 .headerFlex .parallelogram p {
   font-size: 25px;
+  word-break: keep-all;
 }
 
 .enterpreneurHeadache {
@@ -63,10 +67,12 @@ body {
   margin-bottom: 158px;
 }
 .enterpreneurHeadache h2 {
-  font-family: "Graphik", sans-serif;
+  word-break: keep-all;
+  font-size: 30px;
+  z-index: 1;
+  position: relative;
+  font-weight: 700;
   text-align: center;
-  text-transform: uppercase;
-  font-size: 20px;
 }
 .enterpreneurHeadache .enterpreneurHeadacheFlex {
   display: flex;
@@ -75,9 +81,12 @@ body {
   flex-wrap: wrap;
 }
 .enterpreneurHeadache .parallelogram {
-  max-width: 223px;
-  font-size: 5px;
+  max-width: 300px;
   margin-top: 70px;
+}
+.enterpreneurHeadache .parallelogram p {
+  font-size: 13px;
+  word-break: keep-all;
 }
 .enterpreneurHeadache .parallelogram span {
   position: absolute;
@@ -102,6 +111,7 @@ body {
   font-size: 30px;
   padding-bottom: 40px;
   text-transform: uppercase;
+  word-break: keep-all;
 }
 .youGet .blockAboutTheFounder .borderBottomTextFounder {
   font-weight: 600;
@@ -113,11 +123,13 @@ body {
 .youGet .blockAboutTheFounder span {
   color: #FFF376;
   text-transform: uppercase;
+  word-break: keep-all;
 }
 .youGet .founder p {
   color: white;
   padding: 0 10px;
   font-size: 30px;
+  word-break: keep-all;
 }
 .youGet .serviceFounder {
   opacity: 0.9;
@@ -133,6 +145,7 @@ body {
   font-weight: 600;
   font-family: "Graphik", sans-serif;
   color: #FFF376;
+  word-break: keep-all;
   margin-bottom: 30px;
 }
 .youGet .youGetFooter dl dd {
@@ -140,11 +153,13 @@ body {
   align-items: center;
   margin-bottom: 25px;
   font-size: 14px;
+  word-break: keep-all;
   font-weight: 500;
 }
 .youGet .youGetFooter dl dd span {
   margin-left: 16px;
   text-transform: uppercase;
+  word-break: keep-allF;
 }
 .youGet .youGetFooter dl dd img {
   position: relative;
@@ -152,9 +167,11 @@ body {
   height: 50px;
 }
 .youGet .youGetFooter .aboutUs {
+  opacity: 0.9;
   font-size: 18px;
   font-weight: 200;
   line-height: 29px;
+  word-break: keep-all;
   padding-bottom: 30px;
 }
 .youGet .youGetFooter .quotesFrame {
@@ -173,6 +190,7 @@ body {
   text-transform: uppercase;
   margin-top: 57px;
   text-align: center;
+  word-break: keep-all;
 }
 .withUs .swiper {
   margin-top: -18px;
@@ -196,7 +214,7 @@ body {
 }
 .withUs .swiper-button-next {
   position: relative;
-  top: 20vh;
+  top: 19vh;
   margin-right: -2%;
   background-color: #3e3e3e;
   padding: 7px 10px 0 9px;
@@ -206,9 +224,6 @@ body {
   float: right;
 }
 
-.yourStart {
-  margin-top: 100px;
-}
 .yourStart h2 {
   text-transform: uppercase;
   font-size: 30px;
@@ -244,6 +259,11 @@ body {
   margin-bottom: 100px;
   margin-top: 100px;
 }
+.form h2 {
+  font-size: 41px;
+  margin-bottom: 40px;
+  text-align: center;
+}
 .form .flex {
   display: flex;
 }
@@ -267,12 +287,6 @@ body {
   position: relative;
   top: -20px;
   font-size: 13px;
-}
-.form h2 {
-  display: flex;
-  justify-content: center;
-  font-size: 41px;
-  margin-bottom: 40px;
 }
 
 .borderTop {

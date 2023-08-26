@@ -9,7 +9,7 @@ body
 
 .header
     margin: 20px auto 0 auto
-    width: 1000px
+    max-width: 1200px
     & .logoAndLanguage
         display: flex
         align-items: center
@@ -37,35 +37,55 @@ body
     & .headerFlex
         display: flex
         align-items: center
+        justify-content: center
+        margin-bottom: 140px
+        & h2
+            text-transform: uppercase
+            font-weight: 700
+            font-size: 47px
+            word-break: keep-all
         & p
             font-size: 50px
             font-weight: 700
+            word-break: keep-all
         & .parallelogram
-            width: 224px
             & p
-                font-size: 25px
+                font-size: 28px
+                font-weight: 700
+                text-transform: uppercase
         & .bigImg
             width: 659px
             height: 340px
 
-    & .enterpreneurHeadache
+.enterpreneurHeadache
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    margin-top: 100px
+    margin-bottom: 191px
+    height: 100%
+    & .backgroundBlock
+        position: absolute
+        z-index: -1
+        left: 0
+        background-color: #fafafa
+        width: 100%
+        height: 100%
+    & h2
+        padding: 30px
+        text-transform: uppercase
+        text-align: center
+        word-break: keep-all
+        font-weight: 700
+        font-size: 38px
+    & .enterpreneurHeadacheFlex
         display: flex
-        justify-content: space-between
+        justify-content: center
         flex-wrap: wrap
-        margin-top: 100px
-        margin-bottom: 191px
-        & h2
-            z-index: 1
-            width: 1000px
-            font-family: "Graphik", sans-serif
-            text-align: center
-        & .enterpreneurHeadacheFlex
-            display: flex
-            flex-wrap: wrap
         & .parallelogram
             max-height: 300px
-            max-width: 300px
-            font-size: 10px
+            max-width: 370px
+            font-size: 20px
             margin-left: 30px
             margin-top: 70px
             & span
@@ -74,36 +94,36 @@ body
                 left: 4px
                 font-size: 19px
                 font-weight: 600
+            & p
+                font-size: 21px
 
 .youGet
     background-color: #3E3E3E
     padding: 145px 120px 50px 120px
+    padding: 145px 20vw 50px 20vw
     width: 100%
     & .blockAboutTheFounder
         display: flex
         height: 356px
         & .photoFounder
             position: relative
-            top: -121px
+            top: -190px
             width: 390px
             height: 432px
             margin-right: 60px
-        & .borderBottomFounder
-            width: 685px
-            height: 1000px
-            left: 0%
-            top: 86%
-            position: absolute
-            border-bottom: 2px solid #FFF376
         & .block
             & p
+                position: relative
+                top: -100px
                 color: white
                 font-size: 30px
                 font-weight: 600
                 width: 100%
+                word-break: keep-all
                 & span
                     color: #FFF376
                     text-transform: uppercase
+                    word-break: keep-all
             & .founder p:nth-child(1)
                 border-top: 2px solid #FFF376
                 padding-top: 20px
@@ -111,8 +131,9 @@ body
             & .founder p:nth-child(3)
                 font-size: 20px
                 font-weight: 200
+                opacity: 0.8
             & .youGetVectors
-                margin-top: 30px
+                margin-top: -65px
                 display: flex
                 & .vectorArrow
                     width: 134px
@@ -124,60 +145,48 @@ body
     & .youGetFooter
         display: flex
         color: white
+        margin-top: -85px
         & dl
             width: 307%
-            margin-right: 52px
-            padding-bottom: 70px
             & dt
                 text-transform: uppercase
                 font-size: 35px
+                font-weight: 600
                 color: #FFF376
                 margin-bottom: 30px
+                word-break: keep-all
+                font-family: "Graphik", sans-serif
+                &::after
+                    position: relative
+                    top: -76px
+                    content: ""
+                    max-width: 1000px
+                    height: 2px
+                    margin-left: -100%
+                    background-color: #FFF376
+                    display: block
+                    opacity: 0.6
             & dd
-                font-size: 20px
                 display: flex
+                align-items: center
+                font-size: 24px
+                opacity: 0.9
+                font-weight: normal
+                margin-right: 30px
+                margin-bottom: 30px
+                word-break: keep-all
                 & span
                     margin-left: 30px
+                    font-size: 20px
+                    word-break: keep-all
                     text-transform: uppercase
-                &:nth-child(4)
-                    position: relative
-                    top: 50px
-                & .absoluteFirst
-                    position: relative
-                    & img
-                        position: relative
-                        &:nth-child(2)
-                            top: -42px
-                & .absoluteSecond
-                    position: relative
-                    top: -65px
-                    height: 20px
-                    & img
-                        position: relative
-                        &:nth-child(1)
-                            left: 14px
-                            top: 84px
-                        &:nth-child(2)
-                            left: 12px
-                            top: 77px
-                        &:nth-child(3)
-                            left: -5px
-                            top: 46px
-                        &:nth-child(4)
-                            left: -7px
-                            top: 19px
-                        &:nth-child(5)
-                            top: -9px
-                            left: 9px
-                        &:nth-child(6)
-                            top: -10px
-                & .absoluteThird
-                    position: relative
-                    top: -10px
-                    & img
-                        position: relative
+                & img
+                    width: 40px
+                    height: 40px
+
         & .aboutUs
-            font-size: 18px
+            font-size: 22px
+            opacity: 0.9
             font-weight: 200
             line-height: 29px
         & .quotesFrame
@@ -186,25 +195,57 @@ body
             width: 40px
             height: 40px
 
+@media screen and (max-width: 1464px)
+    .youGet
+        padding: 145px 10vw 50px 10vw
+
 .withUs
     & h2
         font-family: "Graphik", sans-serif
         text-transform: uppercase
         margin-top: 80px
+        font-size: 43px
         display: flex
         justify-content: space-around
+        word-break: keep-all
+    & svg
+        background-color: #3e3e3e
+        padding: 7px 10px 0 9px
+        user-select: none
+    & .swiper-button-prev
+        margin-top: -12.5vh
+        margin-left: 20vw
+        transform: rotate(180deg)
+    & .swiper-button-next
+        position: relative
+        top: 158px
+        margin-left: 78vw
+    @media screen and (max-width: 1500px)
+        .swiper-button-prev
+            margin-top: -16vh
+            margin-left: 11vw
+        .swiper-button-next
+            margin-left: 88vw
+    @media screen and (max-width: 1340px)
+        .swiper-button-prev
+            margin-top: -16vh
+            margin-left: 4vw
+        .swiper-button-next
+            margin-left: 93vw
 
 .yourStart
     display: flex
-    margin-top: 100px
+    margin-top: 200px
     & .textAndImgStartWork
         width: 500px
         margin-right: 80px
+        word-break: keep-all
         & h2
             text-transform: uppercase
-            font-size: 40px
-            font-weight: 600
+            font-size: 44px
+            font-weight: 700
             margin-bottom: 30px
+            word-break: keep-all
         & img
             min-width: 495px
             min-height: 393px
@@ -223,6 +264,8 @@ body
                 color: #FFF376
                 font-size: 40px
                 font-weight: 700
+                font-family: "Graphik", sans-serif
+
             & p
                 display: flex
                 max-height: 75px
@@ -233,30 +276,34 @@ body
 .form
     margin-bottom: 100px
     margin-top: 100px
+    & h2
+        display: flex
+        justify-content: center
+        font-size: 44px
+        margin-bottom: 40px
+        word-break: keep-all
+        text-transform: uppercase
     & .flex
         display: flex
     & input
         color: white
         margin-bottom: 25px
-        padding: 10px
+        padding: 20px
         background-color: #3E3E3E
         width: 100%
         border-radius: 4px
         &::placeholder
             opacity: 0.8
+            font-size: 22px
             color: white
         &:nth-child(2)
             margin-left: 25px
     & p
         position: relative
         top: -20px
-        font-size: 13px
-
-    & h2
-        display: flex
-        justify-content: center
-        font-size: 41px
-        margin-bottom: 40px
+        font-size: 15px
+        opacity: 0.8
+        word-break: keep-all
 
 .borderTop
     position: relative

@@ -23,8 +23,10 @@ body
             border-radius: 15px
             background-color: #FFF376
             padding: 10px
+            word-break: keep-all
             & p
                 font-weight: 700
+                word-break: keep-all
             & svg
                 margin-left: 10px
                 transform: rotate(90deg)
@@ -37,6 +39,7 @@ body
         width: 659px
         height: 340px
     & p
+        word-break: keep-all
         font-size: 30px
         z-index: 1
         position: relative
@@ -47,27 +50,31 @@ body
         flex-direction: column
         align-items: center
     & .parallelogram
-
         & p
             font-size: 25px
+            word-break: keep-all
 
 .enterpreneurHeadache
     margin-top: 100px
     margin-bottom: 158px
     & h2
-        font-family: "Graphik", sans-serif
+        word-break: keep-all
+        font-size: 30px
+        z-index: 1
+        position: relative
+        font-weight: 700
         text-align: center
-        text-transform: uppercase
-        font-size: 20px
     & .enterpreneurHeadacheFlex
         display: flex
         flex-direction: column
         align-content: center
         flex-wrap: wrap
     & .parallelogram
-        max-width: 223px
-        font-size: 5px
+        max-width: 300px
         margin-top: 70px
+        & p
+            font-size: 13px
+            word-break: keep-all
         & span
             position: absolute
             top: -30px
@@ -89,6 +96,7 @@ body
             font-size: 30px
             padding-bottom: 40px
             text-transform: uppercase
+            word-break: keep-all
         & .borderBottomTextFounder
             font-weight: 600
             margin-top: -76px
@@ -98,10 +106,12 @@ body
         & span
             color: #FFF376
             text-transform: uppercase
+            word-break: keep-all
     & .founder p
         color: white
         padding: 0 10px
         font-size: 30px
+        word-break: keep-all
     & .serviceFounder
         opacity: 0.9
     & .youGetFooter
@@ -115,24 +125,29 @@ body
                 font-weight: 600
                 font-family: "Graphik", sans-serif
                 color: #FFF376
+                word-break: keep-all
                 margin-bottom: 30px
             & dd
                 display: flex
                 align-items: center
                 margin-bottom: 25px
                 font-size: 14px
+                word-break: keep-all
                 font-weight: 500
                 & span
                     margin-left: 16px
                     text-transform: uppercase
+                    word-break: keep-allF
                 & img
                     position: relative
                     width: 50px
                     height: 50px
         & .aboutUs
+            opacity: 0.9
             font-size: 18px
             font-weight: 200
             line-height: 29px
+            word-break: keep-all
             padding-bottom: 30px
         & .quotesFrame
             margin-left: 88%
@@ -148,6 +163,7 @@ body
         text-transform: uppercase
         margin-top: 57px
         text-align: center
+        word-break: keep-all
     & .swiper
         margin-top: -18px
     & .swiper-slide
@@ -165,14 +181,13 @@ body
         user-select: none
     & .swiper-button-next
         position: relative
-        top: 20vh
+        top: 19vh
         margin-right: -2%
         background-color: #3e3e3e
         padding: 7px 10px 0 9px
         user-select: none
         float: right
 .yourStart
-    margin-top: 100px
     & h2
         text-transform: uppercase
         font-size: 30px
@@ -204,6 +219,10 @@ body
 .form
     margin-bottom: 100px
     margin-top: 100px
+    & h2
+        font-size: 41px
+        margin-bottom: 40px
+        text-align: center
     & .flex
         display: flex
     & input
@@ -220,12 +239,6 @@ body
         position: relative
         top: -20px
         font-size: 13px
-
-    & h2
-        display: flex
-        justify-content: center
-        font-size: 41px
-        margin-bottom: 40px
 
 .borderTop
     position: relative
