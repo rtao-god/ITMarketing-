@@ -45,8 +45,9 @@ body {
   height: 340px;
 }
 .headerFlex p {
+  text-transform: uppercase;
   word-break: keep-all;
-  font-size: 30px;
+  font-size: 31px;
   z-index: 1;
   position: relative;
   font-weight: 700;
@@ -83,9 +84,10 @@ body {
 .enterpreneurHeadache .parallelogram {
   max-width: 300px;
   margin-top: 70px;
+  padding: 18px;
 }
 .enterpreneurHeadache .parallelogram p {
-  font-size: 13px;
+  font-size: 17px;
   word-break: keep-all;
 }
 .enterpreneurHeadache .parallelogram span {
@@ -214,7 +216,7 @@ body {
 }
 .withUs .swiper-button-next {
   position: relative;
-  top: 19vh;
+  top: 16vh;
   margin-right: -2%;
   background-color: #3e3e3e;
   padding: 7px 10px 0 9px;
