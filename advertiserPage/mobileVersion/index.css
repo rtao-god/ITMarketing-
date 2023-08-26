@@ -206,7 +206,7 @@ body {
 }
 .withUs .swiper-button-prev {
   position: relative;
-  top: -16vh;
+  top: -14vh;
   margin-left: -2%;
   background-color: #3e3e3e;
   padding: 7px 10px 0 9px;
@@ -217,7 +217,7 @@ body {
 }
 .withUs .swiper-button-next {
   position: relative;
-  top: 14vh;
+  top: 16vh;
   margin-right: -2%;
   background-color: #3e3e3e;
   padding: 7px 10px 0 9px;
@@ -263,9 +263,10 @@ body {
   margin-top: 100px;
 }
 .form h2 {
-  font-size: 41px;
+  font-size: 33px;
   margin-bottom: 40px;
   text-align: center;
+  text-transform: uppercase;
 }
 .form .flex {
   display: flex;
