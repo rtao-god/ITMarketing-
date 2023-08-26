@@ -264,6 +264,9 @@ body {
   display: flex;
   flex-direction: column;
 }
+.askQuestion .askQuestionInput label {
+  opacity: 0.8;
+}
 .askQuestion .askQuestionInput input {
   padding: 5px;
   margin-bottom: 30px;
@@ -271,13 +274,16 @@ body {
   border: 0;
   outline: none;
   color: white;
+  opacity: 0.9;
   border-bottom: 1px solid white;
 }
 .askQuestion .askQuestionInput input::-moz-placeholder {
   color: white;
+  opacity: 0.9;
 }
 .askQuestion .askQuestionInput input::placeholder {
   color: white;
+  opacity: 0.9;
 }
 .askQuestion .askQuestionBottom {
   background-color: #FFF376;
