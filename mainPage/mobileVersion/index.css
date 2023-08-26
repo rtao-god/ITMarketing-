@@ -211,7 +211,7 @@ body {
 }
 
 .FAQAll {
-  z-index: 1010;
+  z-index: 1;
 }
 .FAQAll h2 {
   margin-bottom: 40px;
@@ -220,29 +220,35 @@ body {
   color: white;
 }
 .FAQAll .FAQ .flex {
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 40px;
   padding: 20px;
   background-color: #3E3E3E;
-  height: 62px;
 }
 .FAQAll .FAQ .flex h3 {
-  font-size: 15px;
+  margin-bottom: 0;
+  font-size: 17px;
 }
 .FAQAll .FAQ .flex svg {
   position: relative;
-  width: 34px;
-  height: 36px;
+  width: 20px;
+  height: 20px;
   cursor: pointer;
-  top: -37%;
-  min-width: 100px;
-  min-height: 40px;
+  top: -39%;
+  margin-right: 0;
+  right: 0;
+  min-width: 20px;
+  min-height: 20px;
 }
 .FAQAll .FAQ .flex .active {
-  top: -3%;
+  top: -4%;
 }
 .FAQAll .FAQResponse {
+  margin-top: 15px;
+  font-size: 12px;
   display: none;
-  margin-right: 100px;
+  margin-right: 0;
   opacity: 0.9;
 }
 
