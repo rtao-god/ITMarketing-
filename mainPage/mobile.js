@@ -3,6 +3,6 @@ else window.history.pushState("object or string", "Title", 'https://rtao-god.git
 
 
 if (window.screen.width <= 1000) $(location).prop('href', 'https://rtao-god.github.io/ITMarketing-/mainPage/mobileVersion/')
-else $(location).prop('href', 'https://rtao-god.github.io/ITMarketing-/mainPage/index.html')
+if (window.screen.width >= 1000) $(location).prop('href', 'https://rtao-god.github.io/ITMarketing-/mainPage/index.html')
 
 
