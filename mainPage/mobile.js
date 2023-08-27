@@ -17,6 +17,6 @@ if (window.screen.width <= 1000) {
  */
 
 if (window.screen.width <= 1000) window.history.pushState("object or string", "Title", "https://rtao-god.github.io/ITMarketing-/mainPage/mobileVersion/")
-else if (window.screen.width >= 1001) window.history.pushState("object or string", "Title", "https://rtao-god.github.io/ITMarketing-/mainPage/index.html")
+else window.history.pushState("object or string", "Title", "https://rtao-god.github.io/ITMarketing-/mainPage/index.html")
 
 location.reload()
