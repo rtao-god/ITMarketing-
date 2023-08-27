@@ -11,6 +11,6 @@ window.location.href = "https://rtao-god.github.io/ITMarketing-/mainPage/index.h
 
 if (window.screen.width <= 1000) {
     $(window).attr("location", "https://rtao-god.github.io/ITMarketing-/mainPage/mobileVersion/")
-} else if (window.screen.width >= 1001) {
+} else {
     $(window).attr("location", "https://rtao-god.github.io/ITMarketing-/mainPage/index.html")
 }
