@@ -144,7 +144,10 @@ body {
   margin-top: 76px;
   padding: 10px;
 }
-.youGet .youGetFooter dl dt {
+.youGet .youGetVectors {
+  display: flex;
+}
+.youGet .youGetVectors dl dt {
   text-transform: uppercase;
   font-size: 27px;
   font-weight: 600;
@@ -153,7 +156,7 @@ body {
   word-break: keep-all;
   margin-bottom: 30px;
 }
-.youGet .youGetFooter dl dd {
+.youGet .youGetVectors dl dd {
   display: flex;
   align-items: center;
   margin-bottom: 25px;
@@ -161,17 +164,17 @@ body {
   word-break: keep-all;
   font-weight: 500;
 }
-.youGet .youGetFooter dl dd span {
+.youGet .youGetVectors dl dd span {
   margin-left: 16px;
   text-transform: uppercase;
   word-break: keep-allF;
 }
-.youGet .youGetFooter dl dd img {
+.youGet .youGetVectors dl dd img {
   position: relative;
   width: 50px;
   height: 50px;
 }
-.youGet .youGetFooter .aboutUs {
+.youGet .youGetVectors .aboutUs {
   opacity: 0.9;
   font-size: 18px;
   font-weight: 200;
@@ -179,7 +182,7 @@ body {
   word-break: keep-all;
   padding-bottom: 30px;
 }
-.youGet .youGetFooter .quotesFrame {
+.youGet .youGetVectors .quotesFrame {
   margin-left: 88%;
   margin-bottom: 10px;
   width: 40px;

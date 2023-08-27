@@ -15,7 +15,7 @@ if (window.screen.width <= 1000) {
     $(window).attr("location", "https://rtao-god.github.io/ITMarketing-/mainPage/index.html")
 }
  */
-location.reload()
+/* location.reload()
 
 if (window.screen.width <= 1000) {
     location.reload()
@@ -24,4 +24,4 @@ if (window.screen.width <= 1000) {
 
 }
 
-location.reload()
+location.reload() */
