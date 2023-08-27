@@ -20,6 +20,12 @@ body
     -moz-box-shadow: 4px 4px 42px 100px rgba(254, 250, 4, 0.426)
     box-shadow: 4px 4px 42px 100px rgba(254, 250, 4, 0.34)
     z-index: 100
+.circle
+    border-radius: 863.82px
+    opacity: 0.5
+    background: linear-gradient(120deg, #fff376 0%, rgba(255, 243, 118, 0) 100%)
+    filter: blur(140px)
+
     &:nth-child(1)
         top: -15%
         right: -7%
@@ -37,7 +43,8 @@ body
         right: -19%
     &:nth-child(6)
         top: 415%
-        left: -7%
+        left: -7
+        %
 
 .centerThePage
     margin: 20px auto 0 auto
@@ -85,11 +92,11 @@ body
             position: relative
             top: 20px
             right: 40px
-            &::after
-                content: url("./screenshots/Group 35703.png")
-                position: relative
-                top: 20px
-                right: -40px
+        &::after
+            content: url("./screenshots/Group 35703.png")
+            position: relative
+            top: 20px
+            right: -40px
         & h2
             font: sans-serif
         & .parallelogram
