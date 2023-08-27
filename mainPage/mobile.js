@@ -16,4 +16,8 @@ if (window.screen.width <= 1000) {
 }
  */
 
-if (window.screen.width <= 1000) $(window).attr("location", "https://rtao-god.github.io/ITMarketing-/mainPage/mobileVersion/")
+if (window.screen.width <= 1000) {
+    $(window).attr("location", "https://rtao-god.github.io/ITMarketing-/mainPage/mobileVersion/")
+    location.reload()
+}
+

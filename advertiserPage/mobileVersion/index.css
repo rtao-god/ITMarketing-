@@ -30,9 +30,11 @@ body {
   font-weight: 700;
   word-break: keep-all;
 }
-.header .logoAndLanguage div svg {
-  margin-left: 10px;
-  transform: rotate(90deg);
+.header .logoAndLanguage div img {
+  width: 20px;
+}
+.header .logoAndLanguage img {
+  width: 150px;
 }
 
 .headerFlex {
