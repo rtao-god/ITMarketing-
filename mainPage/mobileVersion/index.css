@@ -291,10 +291,12 @@ body {
 }
 .askQuestion .askQuestionInput input::-moz-placeholder {
   color: white;
+  font-family: "Graphik", sans-serif;
   opacity: 0.9;
 }
 .askQuestion .askQuestionInput input::placeholder {
   color: white;
+  font-family: "Graphik", sans-serif;
   opacity: 0.9;
 }
 .askQuestion .askQuestionBottom {

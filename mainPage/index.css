@@ -19,29 +19,36 @@ body {
   box-shadow: 4px 4px 42px 100px rgba(254, 250, 4, 0.34);
   z-index: 100;
 }
+
+.circle {
+  border-radius: 863.82px;
+  opacity: 0.5;
+  background: linear-gradient(120deg, #fff376 0%, rgba(255, 243, 118, 0) 100%);
+  filter: blur(140px);
+}
 .circle:nth-child(1) {
   top: -15%;
-  right: -7%;
+  right: 0%;
 }
 .circle:nth-child(2) {
   top: 96%;
-  right: -7%;
+  right: 0%;
 }
 .circle:nth-child(3) {
   top: 186%;
-  left: -7%;
+  left: 0%;
 }
 .circle:nth-child(4) {
   top: 461%;
-  left: -16%;
+  left: 0%;
 }
 .circle:nth-child(5) {
   top: 428%;
-  right: -19%;
+  right: 0%;
 }
 .circle:nth-child(6) {
   top: 415%;
-  left: -7%;
+  left: 0% 233333331;
 }
 
 .centerThePage {
@@ -98,7 +105,7 @@ body {
   top: 20px;
   right: 40px;
 }
-.header h4::before::after {
+.header h4::after {
   content: url("./screenshots/Group 35703.png");
   position: relative;
   top: 20px;
@@ -339,9 +346,11 @@ body {
   border-bottom: 1px solid white;
 }
 .askQuestion .askQuestionInput input::-moz-placeholder {
+  font-family: "Graphik", sans-serif;
   color: white;
 }
 .askQuestion .askQuestionInput input::placeholder {
+  font-family: "Graphik", sans-serif;
   color: white;
 }
 .askQuestion .askQuestionRight {

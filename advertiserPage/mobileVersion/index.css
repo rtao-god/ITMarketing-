@@ -284,6 +284,7 @@ body {
   white-space: pre-wrap;
   color: white;
   height: 100%;
+  font-family: "Graphik", sans-serif;
   padding-bottom: 20px;
 }
 .form input::placeholder, .form textarea::placeholder {
@@ -291,12 +292,22 @@ body {
   white-space: pre-wrap;
   color: white;
   height: 100%;
+  font-family: "Graphik", sans-serif;
   padding-bottom: 20px;
 }
 .form p {
   position: relative;
   top: -20px;
   font-size: 13px;
+}
+
+.parallelogramForm {
+  min-width: 100%;
+  margin-bottom: 200px;
+}
+.parallelogramForm p {
+  text-transform: uppercase;
+  font-size: 33px;
 }
 
 .borderTop {

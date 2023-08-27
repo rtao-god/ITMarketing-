@@ -9,7 +9,7 @@ body {
 
 .header {
   margin: 20px auto 0 auto;
-  max-width: 1200px;
+  max-width: 1000px;
 }
 .header .logoAndLanguage {
   display: flex;
@@ -96,8 +96,6 @@ body {
   flex-wrap: wrap;
 }
 .enterpreneurHeadache .enterpreneurHeadacheFlex .parallelogram {
-  max-height: 300px;
-  max-width: 370px;
   font-size: 20px;
   margin-left: 30px;
   margin-top: 70px;
@@ -110,13 +108,12 @@ body {
   font-weight: 600;
 }
 .enterpreneurHeadache .enterpreneurHeadacheFlex .parallelogram p {
-  font-size: 21px;
+  font-size: 15px;
 }
 
 .youGet {
   background-color: #3E3E3E;
-  padding: 145px 120px 50px 120px;
-  padding: 145px 20vw 50px 20vw;
+  padding: 145px 12vw 50px 12vw;
   width: 100%;
 }
 .youGet .blockAboutTheFounder {
@@ -172,7 +169,8 @@ body {
   margin-top: -85px;
 }
 .youGet .youGetFooter dl {
-  width: 387%;
+  width: 400%;
+  margin-right: 50px;
 }
 .youGet .youGetFooter dl dt {
   text-transform: uppercase;
@@ -322,7 +320,7 @@ body {
 }
 
 .form {
-  margin-bottom: 100px;
+  margin-bottom: 30px;
   margin-top: 100px;
 }
 .form h2 {
@@ -346,13 +344,15 @@ body {
 }
 .form input::-moz-placeholder {
   opacity: 0.8;
-  font-size: 22px;
+  font-size: 15px;
   color: white;
+  font-family: "Graphik", sans-serif;
 }
 .form input::placeholder {
   opacity: 0.8;
-  font-size: 22px;
+  font-size: 15px;
   color: white;
+  font-family: "Graphik", sans-serif;
 }
 .form input:nth-child(2) {
   margin-left: 25px;
@@ -360,9 +360,18 @@ body {
 .form p {
   position: relative;
   top: -20px;
-  font-size: 15px;
+  font-size: 12px;
   opacity: 0.8;
   word-break: keep-all;
+}
+
+.parallelogramForm {
+  min-width: 100%;
+  margin-bottom: 200px;
+}
+.parallelogramForm p {
+  text-transform: uppercase;
+  font-size: 33px;
 }
 
 .borderTop {
@@ -391,5 +400,5 @@ body {
 }
 .footer a:nth-child(2) {
   margin-left: 100px;
-  margin-right: 136px;
+  margin-right: 23px;
 }/*# sourceMappingURL=index.css.map */
