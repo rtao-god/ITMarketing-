@@ -171,7 +171,7 @@ body
     & .swiper-slide
         max-width: 199px
         max-height: 199px
-        margin-left: 50px
+        margin-left: 65px
     & .swiper-button-prev
         position: relative
         top: -14vh
@@ -227,16 +227,20 @@ body
         text-transform: uppercase
     & .flex
         display: flex
-    & input
+    & input, textarea
         color: white
         margin-bottom: 25px
         padding: 10px
         background-color: #3E3E3E
         width: 100%
         border-radius: 4px
+        overflow: hidden
         &::placeholder
             opacity: 0.8
+            white-space: pre-wrap
             color: white
+            height: 100%
+            padding-bottom: 20px
     & p
         position: relative
         top: -20px

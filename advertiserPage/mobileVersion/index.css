@@ -201,7 +201,7 @@ body {
 .withUs .swiper-slide {
   max-width: 199px;
   max-height: 199px;
-  margin-left: 50px;
+  margin-left: 65px;
 }
 .withUs .swiper-button-prev {
   position: relative;
@@ -270,21 +270,28 @@ body {
 .form .flex {
   display: flex;
 }
-.form input {
+.form input, .form textarea {
   color: white;
   margin-bottom: 25px;
   padding: 10px;
   background-color: #3E3E3E;
   width: 100%;
   border-radius: 4px;
+  overflow: hidden;
 }
-.form input::-moz-placeholder {
+.form input::-moz-placeholder, .form textarea::-moz-placeholder {
   opacity: 0.8;
+  white-space: pre-wrap;
   color: white;
+  height: 100%;
+  padding-bottom: 20px;
 }
-.form input::placeholder {
+.form input::placeholder, .form textarea::placeholder {
   opacity: 0.8;
+  white-space: pre-wrap;
   color: white;
+  height: 100%;
+  padding-bottom: 20px;
 }
 .form p {
   position: relative;
