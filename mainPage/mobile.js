@@ -16,7 +16,18 @@ if (window.screen.width <= 1000) {
 }
  */
 
-if (window.screen.width <= 1000) window.history.pushState("object or string", "Title", "https://rtao-god.github.io/ITMarketing-/mainPage/mobileVersion/")
-else window.history.pushState("object or string", "Title", "https://rtao-god.github.io/ITMarketing-/mainPage/index.html")
+window.location.reload()
 
-location.reload()
+setTimeout(() => {
+    if (window.screen.width <= 1000) window.history.pushState("object or string", "Title", "https://rtao-god.github.io/ITMarketing-/mainPage/mobileVersion/")
+    else window.history.pushState("object or string", "Title", "https://rtao-god.github.io/ITMarketing-/mainPage/index.html")
+}, 1000)
+
+window.location.reload()
+
+
+
+
+
+
+
