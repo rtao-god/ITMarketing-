@@ -343,6 +343,8 @@ body {
 
 .askQuestion {
   margin-top: 100px;
+  display: flex;
+  justify-content: center;
 }
 .askQuestion .askQuestionLeft {
   background-color: #3E3E3E;

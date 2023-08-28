@@ -185,7 +185,7 @@
     }
 
     .whatIsThis .parallelogram {
-        margin-left: 35%;
+        margin-left: 40%;
         margin-bottom: 70px;
     }
 
@@ -205,6 +205,7 @@
 
     .whoCanParticipate .parallelogram {
         padding: 20px;
+        max-width: 283px;
     }
 
     .whoCanParticipate p,
@@ -254,9 +255,16 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        margin-left: 15vw;
+        margin-left: 10vw;
         width: 1120px;
         margin-bottom: 30px;
+    }
+
+
+    @media screen and (max-width: 1245px) {
+        .whoCanParticipate .flex {
+            margin-left: 0vw;
+        }
     }
 
     .steps {
