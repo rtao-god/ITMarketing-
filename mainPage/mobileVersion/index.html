@@ -12,6 +12,414 @@
 </head>
 
 <body>
+    <style>
+        @import url("./fonts/stylesheet.css");
+
+        @font-face {
+            font-family: "Graphik", sans-serif;
+            src: url("./fonts/Graphik-Thin.eot");
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        .centerThePage {
+            margin: 0 15px;
+        }
+
+        .centerThePage .logoAndLanguage {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .centerThePage .logoAndLanguage a img {
+            padding-right: 78px;
+            margin-bottom: 30px;
+        }
+
+        .centerThePage .logoAndLanguage div {
+            display: flex;
+            align-items: center;
+            margin-top: -25px;
+            cursor: pointer;
+            border-radius: 15px;
+            background-color: #FFF376;
+            padding: 10px;
+            width: 103px;
+            height: 36px;
+        }
+
+        .centerThePage .logoAndLanguage div p {
+            font-weight: 700;
+            font-size: 12px;
+        }
+
+        .centerThePage .logoAndLanguage div img {
+            margin-left: 5px;
+            width: 20px;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .header h4 {
+            font-size: 23px;
+        }
+
+        .header h2 {
+            font-size: 27px;
+            margin-bottom: 30px;
+        }
+
+        .header p {
+            opacity: 0.8;
+        }
+
+        .header .parallelogram {
+            height: 100%;
+        }
+
+        .whatIsThis {
+            padding: 20px;
+            margin-top: 80px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .whatIsThis h2 {
+            margin-bottom: 30px;
+        }
+
+        .whatIsThis .flex {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .whatIsThis .flex p {
+            opacity: 0.7;
+            color: #090909;
+            padding: 20px;
+        }
+
+        .whatIsThis .flex div {
+            position: relative;
+            left: 0px;
+            width: 100vw;
+            margin-top: 30px;
+            background-color: #3E3E3E;
+        }
+
+        .whatIsThis .flex div p {
+            align-items: center;
+            font-size: 20px;
+            color: white;
+            opacity: 0.9;
+        }
+
+        .whoCanParticipate {
+            margin-bottom: 100px;
+            padding-bottom: 40px;
+        }
+
+        .whoCanParticipate h2 {
+            text-align: center;
+            padding-top: 25px;
+            padding-bottom: 30px;
+            text-transform: uppercase;
+        }
+
+        .whoCanParticipate p,
+        .whoCanParticipate h5 {
+            color: black;
+            text-align: center;
+        }
+
+        .whoCanParticipate h5 {
+            height: 24px;
+            font-size: 16px;
+            font-weight: 900;
+        }
+
+        .whoCanParticipate h4 {
+            opacity: 0.9;
+            margin-bottom: 0;
+        }
+
+        .whoCanParticipate p {
+            font-size: 13px;
+        }
+
+        .whoCanParticipate .parallelogram {
+            width: 290px;
+            padding: 10px;
+        }
+
+        .whoCanParticipate .parallelogram p {
+            word-break: keep-all;
+        }
+
+        .whoCanParticipate .flex {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .steps {
+            margin-bottom: 100px;
+            align-content: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .steps h2 {
+            margin-bottom: 40px;
+        }
+
+        .steps h3 {
+            font-size: 32px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .steps div {
+            padding: 20px;
+            margin-top: 30px;
+            max-width: 285px;
+            min-width: 285px;
+            background-color: #FFF376;
+        }
+
+        .vertical {
+            margin-bottom: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .vertical h2 {
+            font-size: 30px;
+        }
+
+        .vertical h6 {
+            font-family: "Graphik", sans-serif;
+            margin-top: 20px;
+        }
+
+        .vertical .parallelogram {
+            background-color: #3E3E3E;
+            color: white;
+            min-width: 297px;
+        }
+
+        .vertical .parallelogram p {
+            word-break: keep-all;
+            font-size: 17px;
+        }
+
+        .vertical .parallelogram:nth-child(n+6) {
+            background-color: #FFF376;
+            color: black;
+        }
+
+        .present {
+            margin-bottom: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .present h2 {
+            margin-bottom: 20px;
+            font-size: 32px;
+            text-transform: uppercase;
+        }
+
+        .present img {
+            height: 315px;
+        }
+
+        .present .flexWrap {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .present .flexWrap img {
+            margin-right: 15px;
+            width: 125px;
+            height: 125px;
+            margin-top: 20px;
+        }
+
+        .present .parallelogram p {
+            font-size: 24px;
+        }
+
+        .FAQAll {
+            z-index: 1;
+        }
+
+        .FAQAll h2 {
+            margin-bottom: 40px;
+        }
+
+        .FAQAll .FAQ {
+            color: white;
+        }
+
+        .FAQAll .FAQ .flex {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #3E3E3E;
+        }
+
+        .FAQAll .FAQ .flex h3 {
+            margin-bottom: 0;
+            font-size: 17px;
+        }
+
+        .FAQAll .FAQ .flex svg {
+            position: relative;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            top: -39%;
+            margin-right: 0;
+            right: 0;
+            min-width: 20px;
+            min-height: 20px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        .FAQAll .FAQ .flex .active {
+            position: relative;
+            top: -6%;
+        }
+
+        .FAQAll .FAQResponse {
+            margin-top: 15px;
+            font-size: 12px;
+            display: none;
+            margin-right: 0;
+            opacity: 0.9;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .askQuestion {
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+
+        .askQuestion .askQuestionTop {
+            background-color: #3E3E3E;
+            color: white;
+            padding: 30px;
+        }
+
+        .askQuestion .askQuestionTop p {
+            opacity: 0.9;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+
+        .askQuestion .askQuestionInput {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .askQuestion .askQuestionInput label {
+            opacity: 0.8;
+        }
+
+        .askQuestion .askQuestionInput input {
+            padding: 5px;
+            margin-bottom: 30px;
+            background-color: #3E3E3E;
+            border: 0;
+            outline: none;
+            color: white;
+            opacity: 0.9;
+            border-bottom: 1px solid white;
+        }
+
+        .askQuestion .askQuestionInput input::-moz-placeholder {
+            color: white;
+            font-family: "Graphik", sans-serif;
+            opacity: 0.9;
+        }
+
+        .askQuestion .askQuestionInput input::placeholder {
+            color: white;
+            font-family: "Graphik", sans-serif;
+            opacity: 0.9;
+        }
+
+        .askQuestion .askQuestionBottom {
+            background-color: #FFF376;
+            padding: 30px;
+        }
+
+        .askQuestion .askQuestionBottom a {
+            color: black;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 21px;
+            font-family: "Graphik", sans-serif;
+        }
+
+        .askQuestion .askQuestionBottom div {
+            padding-bottom: 30px;
+        }
+
+        .borderTop {
+            position: relative;
+            width: 98.9vw !important;
+            height: 2px;
+            background-color: #3E3E3E;
+            top: -285px;
+        }
+
+        .footer {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding-bottom: 30px;
+        }
+
+        .footer img {
+            width: 320px;
+            height: 124px;
+        }
+
+        .footer div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer div a {
+            text-decoration: none;
+            padding-bottom: 20px;
+            color: rgba(0, 0, 0, 0.8);
+            font-size: 24px;
+            font-weight: 400;
+            font-family: "Graphik", sans-serif;
+        }
+    </style>
     <div id="languageRu">
         <div class="centerThePage">
             <div class="logoAndLanguage">
@@ -20,7 +428,7 @@
                 </a>
                 <div>
                     <p> Ru </p>
-                   <img src="../screenshots/arrow-down-svgrepo-com (1).png" alt="">
+                    <img src="../screenshots/arrow-down-svgrepo-com (1).png" alt="">
                 </div>
             </div>
             <div class="alignCenter header">
