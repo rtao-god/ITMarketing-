@@ -13,390 +13,390 @@
     <link rel="stylesheet" href="./indexDefault.css">
 </head>
 
+<style>
+    @import url("./fonts/stylesheet.css");
+
+    @font-face {
+        font-family: "Graphik", sans-serif;
+        src: url("./fonts/Graphik-Thin.eot");
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .header {
+        margin: 10px 20px 0 20px;
+    }
+
+    .header .logoAndLanguage {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header .logoAndLanguage div {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 15px;
+        background-color: #FFF376;
+        padding: 10px;
+        word-break: keep-all;
+    }
+
+    .header .logoAndLanguage div p {
+        font-weight: 700;
+        word-break: keep-all;
+    }
+
+    .header .logoAndLanguage div img {
+        width: 20px;
+    }
+
+    .header .logoAndLanguage img {
+        width: 150px;
+    }
+
+    .headerFlex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .headerFlex .bigImg {
+        width: 659px;
+        height: 340px;
+    }
+
+    .headerFlex p {
+        text-transform: uppercase;
+        word-break: keep-all;
+        font-size: 31px;
+        z-index: 1;
+        position: relative;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .headerFlex div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .headerFlex .parallelogram p {
+        font-size: 25px;
+        word-break: keep-all;
+    }
+
+    .enterpreneurHeadache {
+        margin-top: 100px;
+        margin-bottom: 158px;
+    }
+
+    .enterpreneurHeadache h2 {
+        word-break: keep-all;
+        font-size: 25px;
+        z-index: 1;
+        position: relative;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .enterpreneurHeadache .enterpreneurHeadacheFlex {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .enterpreneurHeadache .parallelogram {
+        max-width: 300px;
+        margin-top: 70px;
+        padding: 18px;
+    }
+
+    .enterpreneurHeadache .parallelogram p {
+        font-size: 17px;
+        word-break: keep-all;
+    }
+
+    .enterpreneurHeadache .parallelogram span {
+        position: absolute;
+        top: -30px;
+        margin-left: 32%;
+        font-size: 19px;
+        font-weight: 600;
+    }
+
+    .youGet {
+        width: 100%;
+        background-color: #3E3E3E;
+    }
+
+    .youGet .photoFounder {
+        position: relative;
+        top: -76px;
+        z-index: 0;
+    }
+
+    .youGet .blockAboutTheFounder h4 {
+        color: white;
+        padding: 0 10px;
+        font-size: 30px;
+        padding-bottom: 40px;
+        text-transform: uppercase;
+        word-break: keep-all;
+    }
+
+    .youGet .blockAboutTheFounder .borderBottomTextFounder {
+        font-weight: 600;
+        margin-top: -76px;
+        border-bottom: 2px solid #FFF376;
+        padding-top: 40px;
+        border-top: 2px solid #FFF376;
+    }
+
+    .youGet .blockAboutTheFounder span {
+        color: #FFF376;
+        text-transform: uppercase;
+        word-break: keep-all;
+    }
+
+    .youGet .founder p {
+        color: white;
+        padding: 0 10px;
+        font-size: 30px;
+        word-break: keep-all;
+    }
+
+    .youGet .serviceFounder {
+        opacity: 0.9;
+    }
+
+    .youGet .youGetFooter {
+        color: white;
+        margin-top: 76px;
+        padding: 10px;
+    }
+
+    .youGet dl dt {
+        text-transform: uppercase;
+        font-size: 27px;
+        font-weight: 600;
+        font-family: "Graphik", sans-serif;
+        color: #FFF376;
+        word-break: keep-all;
+        margin-bottom: 30px;
+    }
+
+    .youGet dl dd {
+        display: flex;
+        align-items: center;
+        margin-bottom: 25px;
+        font-size: 14px;
+        word-break: keep-all;
+        font-weight: 500;
+    }
+
+    .youGet dl dd span {
+        margin-left: 16px;
+        text-transform: uppercase;
+        word-break: keep-allF;
+    }
+
+    .youGet dl dd img {
+        position: relative;
+        width: 50px;
+        height: 50px;
+    }
+
+    .youGet .aboutUs {
+        opacity: 0.9;
+        font-size: 18px;
+        font-weight: 200;
+        line-height: 29px;
+        word-break: keep-all;
+        padding-bottom: 30px;
+    }
+
+    .youGet .quotesFrame {
+        margin-left: 88%;
+        margin-bottom: 10px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .withUs h2 {
+        font-family: "Graphik", sans-serif;
+        font-size: 28px;
+        text-transform: uppercase;
+        margin-top: 57px;
+        text-align: center;
+        word-break: keep-all;
+    }
+
+    .withUs .swiper {
+        margin-top: -18px;
+    }
+
+    .withUs .swiper-button-prev {
+        width: 33px;
+        height: 33px;
+        position: relative;
+        top: -22vh;
+        margin-left: 0%;
+        background-color: #3e3e3e;
+        padding: 5px 10px 0 5px;
+        transform: rotate(180deg);
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+    }
+
+    .withUs .swiper-button-next {
+        width: 33px;
+        height: 33px;
+        position: relative;
+        top: 23vh;
+        margin-left: 89%;
+        background-color: #3e3e3e;
+        padding: 5px 10px 0 5px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+    }
+
+    .yourStart h2 {
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+
+    .yourStart .yourStartingPoints div {
+        display: flex;
+        margin-bottom: 18px;
+    }
+
+    .yourStart .yourStartingPoints div div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 45px;
+        min-height: 45px;
+        background-color: #3E3E3E;
+        color: #FFF376;
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .yourStart .yourStartingPoints div p {
+        display: flex;
+        max-height: 45px;
+        margin-left: 15px;
+        font-size: 17px;
+        line-height: 17px;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .form {
+        margin-top: 100px;
+        margin-bottom: 40px;
+    }
+
+    .form h2 {
+        font-size: 33px;
+        margin-bottom: 40px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .form .flex {
+        display: flex;
+    }
+
+    .form input,
+    .form textarea {
+        color: white;
+        margin-bottom: 25px;
+        padding: 10px;
+        background-color: #3E3E3E;
+        width: 100%;
+        border-radius: 4px;
+        overflow: hidden;
+    }
+
+    .form input::-moz-placeholder,
+    .form textarea::-moz-placeholder {
+        opacity: 0.8;
+        white-space: pre-wrap;
+        color: white;
+        height: 100%;
+        font-family: "Graphik", sans-serif;
+        padding-bottom: 20px;
+    }
+
+    .form input::placeholder,
+    .form textarea::placeholder {
+        opacity: 0.8;
+        white-space: pre-wrap;
+        color: white;
+        height: 100%;
+        font-family: "Graphik", sans-serif;
+        padding-bottom: 20px;
+    }
+
+    .form p {
+        position: relative;
+        top: -20px;
+        font-size: 13px;
+    }
+
+    .parallelogramForm {
+        min-width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .parallelogramForm p {
+        text-transform: uppercase;
+        font-size: 33px;
+    }
+
+    .borderTop {
+        position: relative;
+        width: 98.9vw !important;
+        height: 2px;
+        background-color: #3E3E3E;
+        top: -285px;
+    }
+
+    .footer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    .footer img {
+        width: 320px;
+        height: 124px;
+    }
+
+    .footer a {
+        text-decoration: none;
+        padding-bottom: 20px;
+        color: rgba(0, 0, 0, 0.8);
+        font-size: 24px;
+        font-weight: 400;
+        font-family: "Graphik", sans-serif;
+    }
+</style>
+
 <body>
-    <style>
-        @import url("./fonts/stylesheet.css");
-
-        @font-face {
-            font-family: "Graphik", sans-serif;
-            src: url("./fonts/Graphik-Thin.eot");
-        }
-
-        body {
-            overflow-x: hidden;
-        }
-
-        .header {
-            margin: 10px 20px 0 20px;
-        }
-
-        .header .logoAndLanguage {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        .header .logoAndLanguage div {
-            display: flex;
-            align-items: center;
-            cursor: pointer;
-            border-radius: 15px;
-            background-color: #FFF376;
-            padding: 10px;
-            word-break: keep-all;
-        }
-
-        .header .logoAndLanguage div p {
-            font-weight: 700;
-            word-break: keep-all;
-        }
-
-        .header .logoAndLanguage div img {
-            width: 20px;
-        }
-
-        .header .logoAndLanguage img {
-            width: 150px;
-        }
-
-        .headerFlex {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .headerFlex .bigImg {
-            width: 659px;
-            height: 340px;
-        }
-
-        .headerFlex p {
-            text-transform: uppercase;
-            word-break: keep-all;
-            font-size: 31px;
-            z-index: 1;
-            position: relative;
-            font-weight: 700;
-            text-align: center;
-        }
-
-        .headerFlex div {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .headerFlex .parallelogram p {
-            font-size: 25px;
-            word-break: keep-all;
-        }
-
-        .enterpreneurHeadache {
-            margin-top: 100px;
-            margin-bottom: 158px;
-        }
-
-        .enterpreneurHeadache h2 {
-            word-break: keep-all;
-            font-size: 25px;
-            z-index: 1;
-            position: relative;
-            font-weight: 700;
-            text-align: center;
-            text-transform: uppercase;
-        }
-
-        .enterpreneurHeadache .enterpreneurHeadacheFlex {
-            display: flex;
-            flex-direction: column;
-            align-content: center;
-            flex-wrap: wrap;
-        }
-
-        .enterpreneurHeadache .parallelogram {
-            max-width: 300px;
-            margin-top: 70px;
-            padding: 18px;
-        }
-
-        .enterpreneurHeadache .parallelogram p {
-            font-size: 17px;
-            word-break: keep-all;
-        }
-
-        .enterpreneurHeadache .parallelogram span {
-            position: absolute;
-            top: -30px;
-            margin-left: 32%;
-            font-size: 19px;
-            font-weight: 600;
-        }
-
-        .youGet {
-            width: 100%;
-            background-color: #3E3E3E;
-        }
-
-        .youGet .photoFounder {
-            position: relative;
-            top: -76px;
-            z-index: 0;
-        }
-
-        .youGet .blockAboutTheFounder h4 {
-            color: white;
-            padding: 0 10px;
-            font-size: 30px;
-            padding-bottom: 40px;
-            text-transform: uppercase;
-            word-break: keep-all;
-        }
-
-        .youGet .blockAboutTheFounder .borderBottomTextFounder {
-            font-weight: 600;
-            margin-top: -76px;
-            border-bottom: 2px solid #FFF376;
-            padding-top: 40px;
-            border-top: 2px solid #FFF376;
-        }
-
-        .youGet .blockAboutTheFounder span {
-            color: #FFF376;
-            text-transform: uppercase;
-            word-break: keep-all;
-        }
-
-        .youGet .founder p {
-            color: white;
-            padding: 0 10px;
-            font-size: 30px;
-            word-break: keep-all;
-        }
-
-        .youGet .serviceFounder {
-            opacity: 0.9;
-        }
-
-        .youGet .youGetFooter {
-            color: white;
-            margin-top: 76px;
-            padding: 10px;
-        }
-
-        .youGet dl dt {
-            text-transform: uppercase;
-            font-size: 27px;
-            font-weight: 600;
-            font-family: "Graphik", sans-serif;
-            color: #FFF376;
-            word-break: keep-all;
-            margin-bottom: 30px;
-        }
-
-        .youGet dl dd {
-            display: flex;
-            align-items: center;
-            margin-bottom: 25px;
-            font-size: 14px;
-            word-break: keep-all;
-            font-weight: 500;
-        }
-
-        .youGet dl dd span {
-            margin-left: 16px;
-            text-transform: uppercase;
-            word-break: keep-allF;
-        }
-
-        .youGet dl dd img {
-            position: relative;
-            width: 50px;
-            height: 50px;
-        }
-
-        .youGet .aboutUs {
-            opacity: 0.9;
-            font-size: 18px;
-            font-weight: 200;
-            line-height: 29px;
-            word-break: keep-all;
-            padding-bottom: 30px;
-        }
-
-        .youGet .quotesFrame {
-            margin-left: 88%;
-            margin-bottom: 10px;
-            width: 40px;
-            height: 40px;
-        }
-
-        .withUs h2 {
-            font-family: "Graphik", sans-serif;
-            font-size: 28px;
-            text-transform: uppercase;
-            margin-top: 57px;
-            text-align: center;
-            word-break: keep-all;
-        }
-
-        .withUs .swiper {
-            margin-top: -18px;
-        }
-
-        .withUs .swiper-button-prev {
-            width: 33px;
-            height: 33px;
-            position: relative;
-            top: -22vh;
-            margin-left: 0%;
-            background-color: #3e3e3e;
-            padding: 5px 10px 0 5px;
-            transform: rotate(180deg);
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            user-select: none;
-        }
-
-        .withUs .swiper-button-next {
-            width: 33px;
-            height: 33px;
-            position: relative;
-            top: 23vh;
-            margin-left: 89%;
-            background-color: #3e3e3e;
-            padding: 5px 10px 0 5px;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            user-select: none;
-        }
-
-        .yourStart h2 {
-            text-transform: uppercase;
-            font-size: 30px;
-            font-weight: 600;
-            margin-bottom: 30px;
-        }
-
-        .yourStart .yourStartingPoints div {
-            display: flex;
-            margin-bottom: 18px;
-        }
-
-        .yourStart .yourStartingPoints div div {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-width: 45px;
-            min-height: 45px;
-            background-color: #3E3E3E;
-            color: #FFF376;
-            font-size: 40px;
-            font-weight: 700;
-        }
-
-        .yourStart .yourStartingPoints div p {
-            display: flex;
-            max-height: 45px;
-            margin-left: 15px;
-            font-size: 17px;
-            line-height: 17px;
-            align-items: center;
-            justify-content: flex-start;
-        }
-
-        .form {
-            margin-top: 100px;
-            margin-bottom: 40px;
-        }
-
-        .form h2 {
-            font-size: 33px;
-            margin-bottom: 40px;
-            text-align: center;
-            text-transform: uppercase;
-        }
-
-        .form .flex {
-            display: flex;
-        }
-
-        .form input,
-        .form textarea {
-            color: white;
-            margin-bottom: 25px;
-            padding: 10px;
-            background-color: #3E3E3E;
-            width: 100%;
-            border-radius: 4px;
-            overflow: hidden;
-        }
-
-        .form input::-moz-placeholder,
-        .form textarea::-moz-placeholder {
-            opacity: 0.8;
-            white-space: pre-wrap;
-            color: white;
-            height: 100%;
-            font-family: "Graphik", sans-serif;
-            padding-bottom: 20px;
-        }
-
-        .form input::placeholder,
-        .form textarea::placeholder {
-            opacity: 0.8;
-            white-space: pre-wrap;
-            color: white;
-            height: 100%;
-            font-family: "Graphik", sans-serif;
-            padding-bottom: 20px;
-        }
-
-        .form p {
-            position: relative;
-            top: -20px;
-            font-size: 13px;
-        }
-
-        .parallelogramForm {
-            min-width: 100%;
-            margin-bottom: 100px;
-        }
-
-        .parallelogramForm p {
-            text-transform: uppercase;
-            font-size: 33px;
-        }
-
-        .borderTop {
-            position: relative;
-            width: 98.9vw !important;
-            height: 2px;
-            background-color: #3E3E3E;
-            top: -285px;
-        }
-
-        .footer {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            padding-bottom: 30px;
-        }
-
-        .footer img {
-            width: 320px;
-            height: 124px;
-        }
-
-        .footer a {
-            text-decoration: none;
-            padding-bottom: 20px;
-            color: rgba(0, 0, 0, 0.8);
-            font-size: 24px;
-            font-weight: 400;
-            font-family: "Graphik", sans-serif;
-        }
-    </style>
-
     <header id="languageRu">
         <div class="header">
             <div class="logoAndLanguage">
