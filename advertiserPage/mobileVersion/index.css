@@ -18,8 +18,6 @@ body {
 .header .logoAndLanguage div {
   display: flex;
   align-items: center;
-  position: relative;
-  top: -10px;
   cursor: pointer;
   border-radius: 15px;
   background-color: #FFF376;
@@ -144,10 +142,7 @@ body {
   margin-top: 76px;
   padding: 10px;
 }
-.youGet .youGetVectors {
-  display: flex;
-}
-.youGet .youGetVectors dl dt {
+.youGet dl dt {
   text-transform: uppercase;
   font-size: 27px;
   font-weight: 600;
@@ -156,7 +151,7 @@ body {
   word-break: keep-all;
   margin-bottom: 30px;
 }
-.youGet .youGetVectors dl dd {
+.youGet dl dd {
   display: flex;
   align-items: center;
   margin-bottom: 25px;
@@ -164,17 +159,17 @@ body {
   word-break: keep-all;
   font-weight: 500;
 }
-.youGet .youGetVectors dl dd span {
+.youGet dl dd span {
   margin-left: 16px;
   text-transform: uppercase;
   word-break: keep-allF;
 }
-.youGet .youGetVectors dl dd img {
+.youGet dl dd img {
   position: relative;
   width: 50px;
   height: 50px;
 }
-.youGet .youGetVectors .aboutUs {
+.youGet .aboutUs {
   opacity: 0.9;
   font-size: 18px;
   font-weight: 200;
@@ -182,16 +177,13 @@ body {
   word-break: keep-all;
   padding-bottom: 30px;
 }
-.youGet .youGetVectors .quotesFrame {
+.youGet .quotesFrame {
   margin-left: 88%;
   margin-bottom: 10px;
   width: 40px;
   height: 40px;
 }
 
-.withUs {
-  padding: 10px;
-}
 .withUs h2 {
   font-family: "Graphik", sans-serif;
   font-size: 28px;
@@ -203,32 +195,30 @@ body {
 .withUs .swiper {
   margin-top: -18px;
 }
-.withUs .swiper-slide {
-  max-width: 199px;
-  max-height: 199px;
-  margin-left: 65px;
-}
 .withUs .swiper-button-prev {
+  width: 33px;
+  height: 33px;
   position: relative;
-  top: -12vh;
-  margin-left: -2%;
+  top: -22vh;
+  margin-left: 0%;
   background-color: #3e3e3e;
-  padding: 7px 10px 0 9px;
+  padding: 5px 10px 0 5px;
   transform: rotate(180deg);
   -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 .withUs .swiper-button-next {
+  width: 33px;
+  height: 33px;
   position: relative;
-  top: 15vh;
-  margin-right: -2%;
+  top: 25vh;
+  margin-left: 87%;
   background-color: #3e3e3e;
-  padding: 7px 10px 0 9px;
+  padding: 5px 10px 0 5px;
   -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-  float: right;
+  -moz-user-select: none;
+  user-select: none;
 }
 
 .yourStart h2 {
