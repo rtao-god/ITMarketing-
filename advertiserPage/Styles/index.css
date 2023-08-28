@@ -246,35 +246,43 @@ body {
      -moz-user-select: none;
           user-select: none;
 }
+.withUs .swiper {
+  width: 70vw;
+}
 .withUs .swiper-button-prev {
+  width: 40px;
+  height: 40px;
+  position: relative;
   margin-top: -12.5vh;
-  margin-left: 20vw;
+  margin-left: 200vw;
   transform: rotate(180deg);
 }
 .withUs .swiper-button-next {
+  width: 40px;
+  height: 40px;
   position: relative;
-  top: 158px;
+  margin-top: 0vw;
   margin-left: 78vw;
 }
+
 @media screen and (max-width: 1500px) {
-  .withUs .swiper-button-prev {
-    margin-top: -16vh;
-    margin-left: 11vw;
+  .swiper-button-prev {
+    margin-top: -15vh;
+    margin-left: 5vw;
   }
-  .withUs .swiper-button-next {
+  .swiper-button-next {
     margin-left: 88vw;
   }
 }
 @media screen and (max-width: 1340px) {
-  .withUs .swiper-button-prev {
+  .swiper-button-prev {
     margin-top: -16vh;
     margin-left: 4vw;
   }
-  .withUs .swiper-button-next {
+  .swiper-button-next {
     margin-left: 93vw;
   }
 }
-
 .yourStart {
   display: flex;
   margin-top: 200px;
@@ -320,8 +328,8 @@ body {
 }
 
 .form {
-  margin-bottom: 30px;
   margin-top: 100px;
+  margin-bottom: 30px;
 }
 .form h2 {
   display: flex;
