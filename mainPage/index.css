@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("./fonts/stylesheet.css");
 @font-face {
   font-family: "Graphik", sans-serif;
@@ -163,6 +164,28 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
   text-transform: uppercase;
+}
+.whoCanParticipate h2::after {
+  background-image: url("./screenshots/Снимок экрана 2023-08-28 160135.png");
+  background-size: 48px 55px;
+  width: 47px;
+  height: 55px;
+  position: relative;
+  top: -30px;
+  margin-left: 20vw;
+  display: inline-block;
+  content: "";
+}
+.whoCanParticipate h2::before {
+  background-image: url("./screenshots/Снимок экрана 2023-08-28 160135.png");
+  background-size: 48px 55px;
+  width: 47px;
+  height: 55px;
+  position: relative;
+  top: -30px;
+  margin-right: 20vw;
+  display: inline-block;
+  content: "";
 }
 .whoCanParticipate p, .whoCanParticipate h5 {
   color: black;
